@@ -1,11 +1,10 @@
 # Introdução
 
-Na última década houve um crescimento de 474% de adesões ao ensino a distância de acordo com uma pesquisa do INEP em 2022. A busca por flexibilidade no estudo tem grande influência na escolha final do aluno para optar pelo EAD, como o poder 
-de escolha do próprio horário, a facilidade de acessar o conteúdo das aulas em diversos dispositivos e locais, além de 
-tornar mais acessível a pessoas que residem em locais mais distantes de pólos de ensino. Apesar dos benefícios, existe uma dificuldade de adaptação
-a esse novo sistema de ensino, consequentemente reflete na má gestão de cronograma de estudos.
+Intensificado pela pandemia de Covid 19, mesmo que de uma forma forçada, as  famílias se viram obrigadas a se  adaptar a um mundo de tecnologia,  plataformas como Teams e  Google mets se tornaram familiares para boa parte da população Brasileira. Da mesma forma, as escolas e universidades tiveram que se adaptar rapidamente ao ensino à distância e utilizar tecnologias digitais para fornecer aulas online e materiais educacionais.
 
-Diante disso, torna-se fundamental que existam canais de informação e mecanismos que permitam ao usuário acessar um conteúdo diverso e sem vies que
+Na última década houve um crescimento de 474% de adesões ao ensino a distância de acordo com uma pesquisa do INEP em 2022. A busca por flexibilidade no estudo tem grande influência na escolha final do aluno para optar pelo EAD asssim como o poder de escolha do próprio horário, a facilidade de acessar o conteúdo das aulas em diversos dispositivos e locais, além de tornar mais acessível a pessoas que residem distantes dos pólos de ensino. 
+
+Apesar dos benefícios, existe uma dificuldade de adaptação a esse novo sistema de ensino que consequentemente reflete na má gestão de cronograma de estudos. Diante disso, torna-se fundamental que existam canais de informação e mecanismos que permitam ao usuário acessar um conteúdo diverso e sem vies que
 limitem a sua condição de se informar de maneira adequada diante dos fatos que acontecem no mundo.
 
 
