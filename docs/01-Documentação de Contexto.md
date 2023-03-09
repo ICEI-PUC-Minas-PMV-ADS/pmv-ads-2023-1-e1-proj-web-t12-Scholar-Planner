@@ -1,6 +1,14 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Na última década houve um crescimento de 474% de adesões ao ensino a distância de acordo com uma pesquisa do INEP em 2022. A busca por flexibilidade no estudo tem grande influência na escolha final do aluno para optar pelo EAD, como o poder 
+de escolha do próprio horário, a facilidade de acessar o conteúdo das aulas em diversos dispositivos e locais, além de 
+tornar mais acessível a pessoas que residem em locais mais distantes de pólos de ensino. Apesar dos benefícios, existe uma dificuldade de adaptação
+a esse novo sistema de ensino, consequentemente reflete na má gestão de cronograma de estudos.
+
+Diante disso, torna-se fundamental que existam canais de informação e mecanismos que permitam ao usuário acessar um conteúdo diverso e sem vies que
+limitem a sua condição de se informar de maneira adequada diante dos fatos que acontecem no mundo.
+
+
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
