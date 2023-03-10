@@ -10,11 +10,7 @@ limitem a sua condição de se informar de maneira adequada diante dos fatos que
 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Um dos maiores desafios que os alunos enfrentam em cursos a distância é a dificuldade em gerenciar seu próprio tempo devido à falta de uma rotina bem estabelecida e sobrecarga de atividades. Esse cenário pode ocasionar procrastinação, falta de organização, atrasos na entrega das tarefas e comprometimento da dedicação ao curso.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
