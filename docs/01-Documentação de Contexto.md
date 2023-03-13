@@ -1,16 +1,14 @@
 # Introdução
 
-Intensificado pela pandemia de Covid 19, mesmo que de uma forma forçada, as  famílias se viram obrigadas a se  adaptar a um mundo de tecnologia,  plataformas como Teams e  Google mets se tornaram familiares para boa parte da população Brasileira. Da mesma forma, as escolas e universidades tiveram que se adaptar rapidamente ao ensino à distância e utilizar tecnologias digitais para fornecer aulas online e materiais educacionais.
+Devido à pandemia de Covid-19, a necessidade de adaptação a um mundo digital foi altamente acelerada e intensificada, assim, um grande número de brasileiros passou a utilizar ferramentas digitais, como Microsoft Teams e Google Meet, diariamente para executar suas atividades profissionais e, até mesmo, sociais. Da mesma forma, as escolas e universidades tiveram que se adaptar rapidamente ao modelo EAD e utilizar a tecnologia para fornecer aulas e materiais educacionais de forma remota.
 
-Na última década houve um crescimento de 474% de adesões ao ensino a distância de acordo com uma pesquisa do INEP em 2022. A busca por flexibilidade no estudo tem grande influência na escolha final do aluno para optar pelo EAD asssim como o poder de escolha do próprio horário, a facilidade de acessar o conteúdo das aulas em diversos dispositivos e locais, além de tornar mais acessível a pessoas que residem distantes dos pólos de ensino. 
+De acordo com uma pesquisa do INEP em 2022, na última década, houve um crescimento de 474% na adesão ao ensino a distância. A busca por flexibilidade nos estudos tem grande influência na escolha final do aluno em relação à modalidade de ensino, assim como o poder de escolha do próprio horário, a facilidade de acessar o conteúdo das aulas em diversos dispositivos e locais, além de tornar determinadas instituições de ensino acessíveis a pessoas que residem em locais distantes dos polos de ensino.
 
-Apesar dos benefícios, existe uma dificuldade de adaptação a esse novo sistema de ensino que consequentemente reflete na má gestão de cronograma de estudos. Diante disso, torna-se fundamental que existam canais de informação e mecanismos que permitam ao usuário acessar um conteúdo diverso e sem vies que
-limitem a sua condição de se informar de maneira adequada diante dos fatos que acontecem no mundo.
-
-
+Apesar dos benefícios, existe uma considerável dificuldade de adaptação a esse novo sistema, o que inclui a má gestão das atividades acadêmicas, muitas vezes causada ou acentuada por deficiências nas plataformas oferecidas pelas instituições de ensino, além das frequentes distrações do ambiente onde vivem. Diante disso e da inevitável expansão dos cursos EAD, torna-se fundamental que os estudantes possuam acesso a formas de amenizar ou corrigir esses prejuízos.
 
 ## Problema
-Um dos maiores desafios que os alunos enfrentam em cursos a distância é a dificuldade em gerenciar seu próprio tempo devido à falta de uma rotina bem estabelecida e sobrecarga de atividades. Esse cenário pode ocasionar procrastinação, falta de organização, atrasos na entrega das tarefas e comprometimento da dedicação ao curso.
+
+São diversos os possíveis desafios enfrentados ao realizar cursos à distância, o que pode incluir: dificuldade de gerenciar o próprio tempo devido à falta de uma rotina de atividades bem estabelecida, acesso facilitado a atividades procrastinatórias e excesso de distrações, mau controle do progresso acadêmico e do prazo de entrega de atividades, e dificuldade para se localizar nas plataformas fornecidas pela instituição de ensino.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -24,7 +22,7 @@ Desenvolver uma aplicação que centralize ferramentas que promovam a estudantes
 - Cronogramas simplificados.
 - Organizador de atividades pendentes e concluídas.
 - Crônometro de “Focus Time” para incentivar momentos específicos de maior concentração.
-- 
+
 ## Justificativa
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
