@@ -25,9 +25,14 @@ Desenvolver uma aplicação que centralize ferramentas que promovam a estudantes
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+No artigo "Cognitive architecture and instructional design", publicado em 1998 na revista "Educational Psychology Review", os autores Sweller, Van Merriënboer e Paas apresentam o modelo da carga cognitiva, que explica como a sobrecarga cognitiva pode afetar negativamente o processo de aprendizagem. Em um trecho, nota-se que, ao organizar as informações em grupos ou categorias, é possível tornar o processo de aprendizado mais eficiente e menos cansativo para o cérebro (SWELLER; VAN MERRIËNBOER; PAAS, 1998, p. 261).
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Com a alta demanda de conteudo,   
+
+Portanto, a necessidade de personalização de uma ferramenta em que o usuário pode criar uma rotina de estudos, adaptada as suas preferencias, horários disponíveis e com um design simples e intuitivo se faz necessário para o seu sucesso acadêmico e consequentemente profissional.
+
+
+<!-- Para que a organização seja efetiva, a ferramenta utilizada para estudo deve ter um design atraente, chamativo, interativo e de fácil entendimento, permitindo que os alunos possam participar ativamente na construção do conhecimento de forma mais eficiente e menos cansativa para o cérebro. -->
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
