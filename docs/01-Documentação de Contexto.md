@@ -29,8 +29,6 @@ No grupo de estudos "Alunos da Turma do Eixo 1 em Análise e Desenvolvimento de 
 Portanto, faz-se necessária uma ferramenta moderna e com design simples e intuitivo, através da qual o usuário possa ter, centralizados, recursos capazes de facilitar a organização da sua jornada acadêmica, além de amenizadores das dificuldades de concentração.
 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
@@ -38,8 +36,3 @@ Alunos de ensino superior cuja graduação seja em modalidade EAD e que estejam 
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
