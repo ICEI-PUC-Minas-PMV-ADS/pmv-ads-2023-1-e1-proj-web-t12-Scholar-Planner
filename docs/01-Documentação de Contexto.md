@@ -1,6 +1,6 @@
 # Introdução
 
-Devido à pandemia de Covid-19, a necessidade de adaptação a um mundo digital foi altamente acelerada e intensificada, assim, um grande número de brasileiros passou a utilizar ferramentas digitais, como Microsoft Teams e Google Meet, diariamente para executar suas atividades profissionais e, até mesmo, sociais. Da mesma forma, as escolas e universidades tiveram que se adaptar rapidamente ao modelo EAD e utilizar a tecnologia para fornecer aulas e materiais educacionais de forma remota.
+Devido à pandemia de Covid-19, a necessidade de adaptação para o mundo digital foi altamente acelerada e intensificada. Assim, um grande número de brasileiros passou a utilizar ferramentas digitais diariamente, como Microsoft Teams e Google Meet, para executar suas atividades profissionais e, até mesmo, sociais. Da mesma forma, as escolas e universidades tiveram que se adaptar rapidamente ao modelo remoto e utilizar a tecnologia para fornecer aulas e materiais educacionais.
 
 De acordo com uma pesquisa do INEP em 2022, na última década, houve um crescimento de 474% na adesão ao ensino a distância. A busca por flexibilidade nos estudos tem grande influência na escolha final do aluno em relação à modalidade de ensino, assim como o poder de escolha do próprio horário, a facilidade de acessar o conteúdo das aulas em diversos dispositivos e locais, além de tornar determinadas instituições de ensino acessíveis a pessoas que residem em locais distantes dos polos de ensino.
 
@@ -8,7 +8,7 @@ Apesar dos benefícios, existe uma considerável dificuldade de adaptação a es
 
 ## Problema
 
-São diversos os possíveis desafios enfrentados ao realizar cursos à distância, o que pode incluir: dificuldade de gerenciar o próprio tempo devido à falta de uma rotina de atividades bem estabelecida, acesso facilitado a atividades procrastinatórias e excesso de distrações, mau controle do progresso acadêmico e do prazo de entrega de atividades, e dificuldade para se localizar nas plataformas fornecidas pela instituição de ensino.
+São diversos os possíveis desafios enfrentados ao realizar cursos à distância, o que pode incluir: dificuldade de gerenciar o próprio tempo devido à falta de uma rotina de atividades bem estabelecida; acesso facilitado a atividades procrastinatórias e com excesso de distrações; mau controle do progresso acadêmico e do prazo de entrega de atividades e entraves para se localizar nas plataformas fornecidas pela instituição de ensino.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -17,7 +17,7 @@ São diversos os possíveis desafios enfrentados ao realizar cursos à distânci
 
 ## Objetivos
 
-Desenvolver uma aplicação que centralize ferramentas que promovam a estudantes de ensino superior uma maior facilidade em organizar e gerir suas ativadades e seus progressos acadêmicos através de:
+Desenvolver uma aplicação que centralize ferramentas e que promova a estudantes de ensino superior uma maior facilidade de organização e gestão de suas ativadades e de seus progressos acadêmicos através de:
 - Interface simples e acessível para pessoas com menor familiaridade com tecnologia.
 - Cronogramas simplificados.
 - Organizador de atividades pendentes e concluídas.
@@ -25,14 +25,14 @@ Desenvolver uma aplicação que centralize ferramentas que promovam a estudantes
 
 ## Justificativa
 
-No artigo "Cognitive architecture and instructional design", publicado em 1998 na revista "Educational Psychology Review", os autores Sweller, Van Merriënboer e Paas apresentam o modelo da carga cognitiva, que explica como a sobrecarga cognitiva pode afetar negativamente o processo de aprendizagem. Em um trecho, nota-se que, ao organizar as informações em grupos ou categorias, é possível tornar o processo de aprendizado mais eficiente e menos cansativo para o cérebro (SWELLER; VAN MERRIËNBOER; PAAS, 1998, p. 261).
+A pesquisa conduzida pela Association for Psychological Science descobriu que estudantes universitários que fazem um planejamento semanal e gerenciam seu tempo de forma eficaz têm uma média de GPA (nota média) de 3,5, enquanto aqueles que não gerenciam seu tempo têm uma média de GPA de 2,8 (Fonte: Association for Psychological Science, 2010). A organização é um fator essencial para o sucesso acadêmico, pois ajuda os alunos a aproveitarem seu tempo de estudo diante de outros afazeres, priorizando os conteúdos mais importantes e evitando o acúmulo de tarefas.
 
-Com a alta demanda de conteudo,   
+De acordo com a pesquisa intitulada de  "Student Engagement and Learning: A Study of the Effects of Instructional Methods" realizada por David H. Jonassen e Richard J. Hannum, os alunos que participaram ativamente do processo de aprendizagem tiveram um melhor desempenho nos testes de conhecimento do que aqueles que não participaram. Além disso, os alunos que foram mais ativamente envolvidos na aprendizagem relataram ter uma atitude mais positiva em relação ao aprendizado e se sentiram mais confiantes em suas habilidades.
 
-Portanto, a necessidade de personalização de uma ferramenta em que o usuário pode criar uma rotina de estudos, adaptada as suas preferencias, horários disponíveis e com um design simples e intuitivo se faz necessário para o seu sucesso acadêmico e consequentemente profissional.
+No grupo de estudos "Alunos da Turma do Eixo 1 em Análise e Desenvolvimento de Sistemas 2023/1", temas como: cronologia de estudos, eficiência das plataformas universitárias, priorização de conteúdos e dificuldades de concentração são recorrentes entre os iniciantes. 
 
+Portanto, faz-se necessária uma ferramenta moderna e com design simples e intuitivo, através da qual o usuário possa ter, centralizados, recursos capazes de facilitar a organização da sua jornada acadêmica, além de amenizadores das dificuldades de concentração.
 
-<!-- Para que a organização seja efetiva, a ferramenta utilizada para estudo deve ter um design atraente, chamativo, interativo e de fácil entendimento, permitindo que os alunos possam participar ativamente na construção do conhecimento de forma mais eficiente e menos cansativa para o cérebro. -->
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
