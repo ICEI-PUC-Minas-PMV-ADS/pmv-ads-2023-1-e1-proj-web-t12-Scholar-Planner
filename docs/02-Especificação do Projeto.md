@@ -2,9 +2,9 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+O propósito do projeto é desenvolver uma Aplicação Web que ajude os alunos a criar uma rotina de estudo de fácil manejo e entendimento. Para atender às necessidades dos usuários, a solução proposta inclui ferramentas que permitem a criação de um cronograma personalizado de estudos, com controle de atividades e prazos de entrega, além de um sistema de "focus time" para ajudar a manter a concentração. 
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+No desenvolvimento do projeto foram utilizadas técnicas como a definição do diagrama de personas,  análise de concorrência, brainstorming, prototipação, modelagem de dados, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto, que foram montados baseadas no tempo hábil para entrega do projeto.
 
 ## Personas
 
