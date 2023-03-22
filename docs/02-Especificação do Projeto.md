@@ -21,7 +21,7 @@ No desenvolvimento do projeto foram utilizadas técnicas como a definição do d
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------ |----------------------------------------|
 |Estudante de EAD    | Organizar meu plano de Estudos      | Encontrar forma simples de estudar     |
-|Estudante de EAD    | Uma ferramenta de fácil entendimento| Poder modificar sua rotina de estudo   |
+|Estudante de EAD    | Organizar seu estudo de forma dinamica| Poder modificar sua rotina de estudo   |
 
 
 
