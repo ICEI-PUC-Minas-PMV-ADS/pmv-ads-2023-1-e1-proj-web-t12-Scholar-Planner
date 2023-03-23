@@ -12,11 +12,9 @@ O ensino à distância apresenta diversos desafios, como a falta de rotina, o ac
 
 ## Objetivos
 
-Desenvolver uma aplicação que centralize ferramentas e que promova a estudantes de ensino superior uma maior facilidade de organização e gestão de suas atividades e de seus progressos acadêmicos através de:
-- Interface simples e acessível para pessoas com menor familiaridade com tecnologia.
-- Cronogramas simplificados.
-- Organizador de atividades pendentes e concluídas.
-- Crônometro de “Focus Time” para incentivar momentos específicos de maior concentração.
+Desenvolver uma aplicação que ofereça a estudantes de ensino superior uma facilidade na organização e gestão de suas tarefas.
+•    Organizador de atividades pendentes e concluídas.
+•    Crônometro de “Focus Time” para incentivar momentos específicos de maior concentração.
 
 ## Justificativa
 
@@ -40,7 +38,5 @@ Existem muitas aplicações que podem ajudar as pessoas na gestão de tarefas. E
 
 ## Público-Alvo
 
-Alunos de ensino superior cuja graduação seja em modalidade EAD e que estejam buscando melhorar sua organização e seu desempenho acadêmico através de ferramentas que se encontram indisponíveis ou insatisfatoriamente desenvolvidas nas plataformas utilizadas por suas universidades.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Alunos de ensino superior a distância que precisam organizar seus horários de estudo e não tem familiaridade com o meio digital.
 
