@@ -12,7 +12,7 @@ O ensino à distância apresenta diversos desafios, como a falta de rotina, o ac
 
 ## Objetivos
 
-Desenvolver uma aplicação que centralize ferramentas e que promova a estudantes de ensino superior uma maior facilidade de organização e gestão de suas ativadades e de seus progressos acadêmicos através de:
+Desenvolver uma aplicação que centralize ferramentas e que promova a estudantes de ensino superior uma maior facilidade de organização e gestão de suas atividades e de seus progressos acadêmicos através de:
 - Interface simples e acessível para pessoas com menor familiaridade com tecnologia.
 - Cronogramas simplificados.
 - Organizador de atividades pendentes e concluídas.
