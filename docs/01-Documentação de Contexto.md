@@ -12,10 +12,9 @@ O ensino à distância apresenta diversos desafios, como a falta de rotina, o ac
 
 ## Objetivos
 
-Desenvolver uma aplicação que centralize ferramentas e que promova a estudantes de ensino superior uma maior facilidade de organização e gestão de suas atividades e de seus progressos acadêmicos através de:
-- Interface simples e acessível para pessoas com menor familiaridade com tecnologia.
-- Cronogramas simplificados.
-- Organizador de atividades pendentes e concluídas.
+Desenvolver uma aplicação que ofereça a estudantes de ensino superior uma facilidade na organização e gestão de suas tarefas.
+
+- Organizador de atividades pendentes, em progresso e concluídas.
 - Crônometro de “Focus Time” para incentivar momentos específicos de maior concentração.
 
 ## Justificativa
@@ -32,15 +31,14 @@ Portanto, faz-se necessária uma ferramenta moderna e com design simples e intui
 
 Existem muitas aplicações que podem ajudar as pessoas na gestão de tarefas. Entre elas, destacam-se as seguintes:
 
--	**Todoist**[^1] - É uma aplicação avançada de gerenciamento de tarefas, que oferece recursos avançados, como gerenciamento de projetos e integração com outras aplicações. Há a possibilidade de colaboração em tempo real com outras pessoas e está disponível para diferentes plataformas, incluindo web, desktop e dispositivos móveis. Pode ter uma curva de aprendizado mais longa que alguns outras aplicações.
--	**Google Tasks**[^2] - É uma aplicação simples e integrado ao Gmail e ao Google Calendar, que oferece recursos básicos de gerenciamento de tarefas e é ideal para pessoas que procuram uma solução fácil e integrada. No entanto, comparada às outras soluções, oferece recursos limitados.
--	**Microsoft To-Do**[^3] - É uma aplicação de gerenciamento de tarefas simples, com recursos básicos de listas de tarefas, lembretes e gerenciamento de projetos. Está integrada ao pacote Office 365.
--	**Any.do**[^4] - É uma aplicação avançada de gerenciamento de tarefas, com recursos avançados, como gerenciamento de projetos, integração com outras aplicações e recursos de colaboração em tempo real. Está disponível para diferentes plataformas, incluindo web, desktop e dispositivos móveis. É outras aplicações considerada complexa para usuários iniciantes.
--	**Wunderlist**[^5] - É outras aplicações de gerenciamento de tarefas que oferece recursos avançados como gerenciamento de projetos, recursos de colaboração em tempo real e integração com outros aplicativos. Também está disponível para diferentes plataformas.
+-	**Todoist** - É uma aplicação avançada de gerenciamento de tarefas, que oferece recursos avançados, como gerenciamento de projetos e integração com outras aplicações. Há a possibilidade de colaboração em tempo real com outras pessoas e está disponível para diferentes plataformas, incluindo web, desktop e dispositivos móveis. Pode ter uma curva de aprendizado mais longa que alguns outras aplicações.
+-	**Google Tasks** - É uma aplicação simples e integrado ao Gmail e ao Google Calendar, que oferece recursos básicos de gerenciamento de tarefas e é ideal para pessoas que procuram uma solução fácil e integrada. No entanto, comparada às outras soluções, oferece recursos limitados.
+-	**Microsoft To-Do** - É uma aplicação de gerenciamento de tarefas simples, com recursos básicos de listas de tarefas, lembretes e gerenciamento de projetos. Está integrada ao pacote Office 365.
+-	**Any.do** - É uma aplicação avançada de gerenciamento de tarefas, com recursos avançados, como gerenciamento de projetos, integração com outras aplicações e recursos de colaboração em tempo real. Está disponível para diferentes plataformas, incluindo web, desktop e dispositivos móveis. É outras aplicações considerada complexa para usuários iniciantes.
+-	**Wunderlist** - É outras aplicações de gerenciamento de tarefas que oferece recursos avançados como gerenciamento de projetos, recursos de colaboração em tempo real e integração com outros aplicativos. Também está disponível para diferentes plataformas.
+-	**Notion** - O Notion é uma ferramenta poderosa para organização pessoal, mas pode parecer um pouco intimidador para aqueles que têm pouco conhecimento de informática.
 
 ## Público-Alvo
 
-Alunos de ensino superior cuja graduação seja em modalidade EAD e que estejam buscando melhorar sua organização e seu desempenho acadêmico através de ferramentas que se encontram indisponíveis ou insatisfatoriamente desenvolvidas nas plataformas utilizadas por suas universidades.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Alunos de ensino superior a distância que precisam organizar seus horários de estudo e não tem familiaridade com o meio digital.
 
