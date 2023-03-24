@@ -33,10 +33,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O sistema deve permitir o usuário cadastrar atividade | ALTA | 
-|RF-002| O sistema deve permitir o usuário editar atividade | ALTA | 
-|RF-003| O sistema deve permitir o usuário deletar a atividade | ALTA | 
-|RF-004| O sistema deve permitir a consulta do progresso da atividade | MÉDIA |
+|RF-001| O sistema deve permitir o usuário cadastrar, editar e deletar atividade | ALTA | 
+|RF-002| O sistema deve permitir a consulta do progresso da atividade | MÉDIA |
 
 ### Requisitos não Funcionais
 
