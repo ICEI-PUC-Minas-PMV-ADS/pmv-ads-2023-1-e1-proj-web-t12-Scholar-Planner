@@ -20,8 +20,8 @@ No desenvolvimento do projeto foram utilizadas técnicas como a definição do d
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------ |----------------------------------------|
-|Estudante de EAD    | Organizar meu plano de Estudos      | Encontrar forma simples de estudar     |
-|Estudante de EAD    | Organizar seu estudo de forma dinamica| Poder modificar sua rotina de estudo   |
+|Thiago Nunes    | Organizar meu plano de Estudos      | Para organizar meu tempo nos estudos     |
+|Amanda Oliveira | Distribuir meu tmpo de estudo entre as disciplinas| Poder acompanhar minha rotina de estudo   |
 
 
 
@@ -33,17 +33,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O sistema deve permitir o usuário cadastrar atividade | ALTA | 
-|RF-002| O sistema deve permitir o usuário editar atividade | ALTA | 
-|RF-003| O sistema deve permitir o usuário deletar a atividade | ALTA | 
-|RF-004| O sistema deve permitir a consulta do progresso da atividade | MÉDIA |
+|RF-001| O sistema deve permitir o usuário cadastrar, editar e deletar atividades | ALTA | 
+|RF-002|O sistema deve permitir a consulta do progresso da atividade | ALTA | 
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| O sistema deve permitir que o usuário cadastre suas atividade em 1 minuto |  ALTA |
+|RNF-002| O sistema deve permitir que o usuário utilize o sistema sem necessidade de treinamento |  ALTA |
 |RNF-003| O sistema deve ser possível de migração para outros frameworks |  MÉDIA |
 
 
