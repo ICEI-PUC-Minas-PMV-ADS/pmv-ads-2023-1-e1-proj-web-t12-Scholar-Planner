@@ -13,8 +13,9 @@ O ensino à distância apresenta diversos desafios, como a falta de rotina, o ac
 ## Objetivos
 
 Desenvolver uma aplicação que ofereça a estudantes de ensino superior uma facilidade na organização e gestão de suas tarefas.
-•    Organizador de atividades pendentes e concluídas.
-•    Crônometro de “Focus Time” para incentivar momentos específicos de maior concentração.
+
+- Organizador de atividades pendentes, em progresso e concluídas.
+- Crônometro de “Focus Time” para incentivar momentos específicos de maior concentração.
 
 ## Justificativa
 
