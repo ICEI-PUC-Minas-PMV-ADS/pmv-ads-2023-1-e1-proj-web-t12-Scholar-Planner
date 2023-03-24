@@ -1,12 +1,12 @@
-# TÍTULO DO PROJETO
+# Título Do Projeto
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas` 
 
-`DISCIPLINA`
+`Projeto: Densenvolvimento de Aplicação Web Front-end - Turma 12`
 
-`SEMESTRE`
+`1º Semestre DE 2023`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Uma aplicação de gerenciamento de tarefas para estudantes universitários que  oferece recursos como um organizador de atividades pendentes e concluídas, permitindo que eles rastreiem o progresso e o andamento de suas tarefas. Além disso, a função de crônometro "Focus Time" para ajudá-los a manter o foco e a concentração em momentos específicos, aumentando a produtividade e o aproveitamento do tempo disponível. Com uma aplicação fácil de usar e personalizável, os estudantes universitários podem se sentir mais organizados e eficientes em suas tarefas acadêmicas e extracurriculares.
 
 ## Integrantes
 
