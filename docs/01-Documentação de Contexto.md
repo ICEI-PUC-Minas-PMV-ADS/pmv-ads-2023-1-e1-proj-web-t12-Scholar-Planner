@@ -30,12 +30,12 @@ Portanto, faz-se necessária uma ferramenta moderna e com design simples e intui
 
 Existem muitas aplicações que podem ajudar as pessoas na gestão de tarefas. Entre elas, destacam-se as seguintes:
 
--	**Todoist**[^1] - É uma aplicação avançada de gerenciamento de tarefas, que oferece recursos avançados, como gerenciamento de projetos e integração com outras aplicações. Há a possibilidade de colaboração em tempo real com outras pessoas e está disponível para diferentes plataformas, incluindo web, desktop e dispositivos móveis. Pode ter uma curva de aprendizado mais longa que alguns outras aplicações.
--	**Google Tasks**[^2] - É uma aplicação simples e integrado ao Gmail e ao Google Calendar, que oferece recursos básicos de gerenciamento de tarefas e é ideal para pessoas que procuram uma solução fácil e integrada. No entanto, comparada às outras soluções, oferece recursos limitados.
--	**Microsoft To-Do**[^3] - É uma aplicação de gerenciamento de tarefas simples, com recursos básicos de listas de tarefas, lembretes e gerenciamento de projetos. Está integrada ao pacote Office 365.
--	**Any.do**[^4] - É uma aplicação avançada de gerenciamento de tarefas, com recursos avançados, como gerenciamento de projetos, integração com outras aplicações e recursos de colaboração em tempo real. Está disponível para diferentes plataformas, incluindo web, desktop e dispositivos móveis. É outras aplicações considerada complexa para usuários iniciantes.
--	**Wunderlist**[^5] - É outras aplicações de gerenciamento de tarefas que oferece recursos avançados como gerenciamento de projetos, recursos de colaboração em tempo real e integração com outros aplicativos. Também está disponível para diferentes plataformas.
--	**Notion** [ˆ6] - O Notion é uma ferramenta poderosa para organização pessoal, mas pode parecer um pouco intimidador para aqueles que têm pouco conhecimento de informática.
+-	**Todoist** - É uma aplicação avançada de gerenciamento de tarefas, que oferece recursos avançados, como gerenciamento de projetos e integração com outras aplicações. Há a possibilidade de colaboração em tempo real com outras pessoas e está disponível para diferentes plataformas, incluindo web, desktop e dispositivos móveis. Pode ter uma curva de aprendizado mais longa que alguns outras aplicações.
+-	**Google Tasks** - É uma aplicação simples e integrado ao Gmail e ao Google Calendar, que oferece recursos básicos de gerenciamento de tarefas e é ideal para pessoas que procuram uma solução fácil e integrada. No entanto, comparada às outras soluções, oferece recursos limitados.
+-	**Microsoft To-Do** - É uma aplicação de gerenciamento de tarefas simples, com recursos básicos de listas de tarefas, lembretes e gerenciamento de projetos. Está integrada ao pacote Office 365.
+-	**Any.do** - É uma aplicação avançada de gerenciamento de tarefas, com recursos avançados, como gerenciamento de projetos, integração com outras aplicações e recursos de colaboração em tempo real. Está disponível para diferentes plataformas, incluindo web, desktop e dispositivos móveis. É outras aplicações considerada complexa para usuários iniciantes.
+-	**Wunderlist** - É outras aplicações de gerenciamento de tarefas que oferece recursos avançados como gerenciamento de projetos, recursos de colaboração em tempo real e integração com outros aplicativos. Também está disponível para diferentes plataformas.
+-	**Notion** - O Notion é uma ferramenta poderosa para organização pessoal, mas pode parecer um pouco intimidador para aqueles que têm pouco conhecimento de informática.
 
 ## Público-Alvo
 
