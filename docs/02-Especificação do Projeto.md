@@ -21,7 +21,7 @@ No desenvolvimento do projeto foram utilizadas técnicas como a definição do d
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------ |----------------------------------------|
 |Thiago Nunes    | Organizar meu plano de Estudos      | Para organizar meu tempo nos estudos     |
-|Amanda Oliveira | Distribuir meu tmpo de estudo entre as disciplinas| Poder acompanhar minha rotina de estudo   |
+|Amanda Oliveira | Distribuir meu tempo de estudo entre as disciplinas| Poder acompanhar minha rotina de estudo   |
 
 
 
