@@ -4,7 +4,7 @@
 
 O propósito do projeto é desenvolver uma Aplicação Web que ajude os alunos a criarem uma rotina de estudos de fácil manejo e entendimento. Para atender às necessidades dos usuários, a solução proposta inclui ferramentas que permitem a criação de um cronograma personalizado de estudos, com controle de atividades e prazos de entrega, além de um sistema de "focus time" para ajudar a manter a concentração. 
 
-No desenvolvimento do projeto foram utilizadas técnicas como a definição do diagrama de personas,  análise de concorrência, brainstorming, prototipação, modelagem de dados, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto, que foram montadas baseadas no tempo hábil para entrega do projeto.
+No desenvolvimento do projeto foram utilizadas técnicas como a definição do diagrama de personas, análise de concorrência, brainstorming, prototipação, modelagem de dados, histórias de usuários, requisitos funcionais e não funcionais, além das restrições, que foram montadas baseadas no tempo hábil para entrega.
 
 ## Personas
 
