@@ -41,7 +41,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|----------------------------------------------------------------------------------------|------------|
 |RNF-001| O sistema deve ser responsivo para se adaptar a dispositivos móveis.                   |    MÉDIA   | 
 |RNF-002| O sistema deve permitir que o usuário utilize o sistema sem necessidade de treinamento.|    ALTA    |
-|RNF-003| O sistema deve ser possível de migração para outros frameworks.                        |    MÉDIA   |
+|RNF-003| O sistema deve ser possível de ser migrado para frameworks futuramente.                        |    MÉDIA   |
 
 
 
