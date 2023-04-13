@@ -39,12 +39,14 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+- Scrum Master: Shigery França Dutra Sasaki
+- Product Owner: Alice Coelho de Moura
+- Equipe de Desenvolvimento
+   - Mirella Gabriela Silva Bonutty De Freitas
+   - Lucas Marlon Oliveira De Jesus
+   - João Leonardo Ohasi Amorim
+- Equipe de Design
+   - Renan Stankevicius
 
 ### Processo
 
