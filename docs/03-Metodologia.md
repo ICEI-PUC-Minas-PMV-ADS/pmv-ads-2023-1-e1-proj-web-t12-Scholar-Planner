@@ -94,6 +94,10 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 - 5.3 Evidências:
 
+<img src="img/evidencia-pesquisa-applestore.jpeg" height="350px" width="500px">
+
+<img src="img/evidencia-notion.jpeg" height="350px" width="600px">
+
 #### 6) Público-alvo
 
 - 6.1 Planejamento: Foram feitas reuniões via Discord para definir os critérios para a seleção de um público-alvo.
