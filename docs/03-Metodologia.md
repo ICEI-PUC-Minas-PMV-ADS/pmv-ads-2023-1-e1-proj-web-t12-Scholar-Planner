@@ -106,6 +106,8 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 - 6.3 Evidências:
 
+<img src="img/evidencia-publico-alvo.jpeg">
+
 #### 7) Especificações do Projeto
 
 - 7.1 Planejamento: A equipe se reuniu no Discord para definir a base que direcionaria cada segmento dessa parte do projeto e quem seria responsável por cada um deles. Ainda, foram obtidas orientações através de reunião com o professor no Microsoft Teams.
