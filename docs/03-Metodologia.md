@@ -50,7 +50,17 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Processo [A FAZER]
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+#### Etapa 01
+
+#### 1) Introdução
+
+- 1.1 Planejamento: A equipe se reuniu pelo Discord em encontros semanais
+para discutir a ideia inicial do projeto
+
+- 1.2 Execução: Foi realizado levantamento de dados com pesquisas na Web
+e discussões no grupo de ADS no WhatsApp
+
+#### A) Introdução
  
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
