@@ -98,6 +98,8 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 <img src="img/evidencia-notion.jpeg" height="350px" width="600px">
 
+<img src="img/evidencia-notion-2.png">
+
 #### 6) Público-alvo
 
 - 6.1 Planejamento: Foram feitas reuniões via Discord para definir os critérios para a seleção de um público-alvo.
