@@ -56,17 +56,17 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 #### 1) Introdução
 
-- 1.1 Planejamento: 
+- 1.1 Planejamento: Todas terças e quintas-feiras o time tem um encontro para definir o densenvolvimento do projeto. A introdução iniciou-se a partir de um debate em um grupo de WhatsApp de alunos que compartilharam suas dificuldades em gerir uma graduação com ensino à distância.
 
-- 1.2 Execução: 
+- 1.2 Execução: Durante dois encontros foram feitas algumas pesquisas, como os motivos do aumento da busca por aprendizagem remota, seus pontos positivos e negativos. Além disso, houve um debate com os próprios integrantes do time sobre suas experiências com a modalidade EAD. Dessa forma, o time levantou dados e vivências para a construção da introdução.
 
 - 1.3 Evidências:
 
 #### 2) Problema
 
-- 2.1 Planejamento: 
+- 2.1 Planejamento: A elaboração dos problemas encontrados deu-se por meio de levantamento de dados e vivências pessoais de alunos.
 
-- 2.2 Execução: 
+- 2.2 Execução: Diante dos dados levantados nas pesquisas, o time elencou alguns dos principais desafios encontrados no ensino à distância.
 
 - 2.3 Evidências:
 
@@ -216,6 +216,8 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - 6.2 Execução: Utilizando o software Figma, foram esquematizados os wireframes da página de login e da página principal da aplicação.
 
 - 6.3 Evidências:
+
+<img src="img/evidencia-figma-wireframe.png">
 
 #### A) Introdução
  
