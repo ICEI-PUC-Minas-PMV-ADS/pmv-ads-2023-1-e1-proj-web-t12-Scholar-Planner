@@ -120,6 +120,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - 8.3 Evidências: 
 
 ![Evidência Persona Thiago Nunes](img/evidencias-personas-thiago-nunes.png)
+
 ![Evidência Persona Amanda Oliveira](img/evidencias-personas-amanda-oliveira.png)
 
 #### 9) Histórias de Usuários
@@ -130,6 +131,10 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 - 9.3 Evidências:
 
+<img src="img/evidencia-discord-historias-de-usuarios.jpeg">
+
+<img src="img/evidencia-github-historias-de-usuarios.jpeg">
+
 #### 10) Requisitos
 
 - 10.1 Planejamento: Alice demonstrou interesse em realizar os requisitos funcionais e não funcionais por ter experiência em realizar os mesmos, assim, ela ficou encarregada de elaborar esta parte.
@@ -138,6 +143,12 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 - 10.3 Evidências:
 
+<img src="img/evidencia-github-requisitos1.jpeg">
+
+<img src="img/evidencia-github-requisitos2.jpeg">
+
+<img src="img/evidencia-github-requisitos3.jpeg">
+
 #### 11) Restrições
 
 - 11.1 Planejamento: As restrições foram planejadas de acordo com a necessidade do projeto e em colaboração com grupo de desenvolvimnento.
@@ -145,6 +156,8 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - 11.2 Execução: A equipe definiu quais seriam as definições imutáveis do desenvolvimento do projeto, como prazo, grau de complexidade do sistema e linguagem de programação utilizada.
 
 - 11.3 Evidências:
+
+<img src="img/resticoes.png" width="400px" height="150px">
 
 
 #### Etapa 2
@@ -157,6 +170,10 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - 1.2 Execução: Foi apresentada e escolhida a metodologia SCRUM. Definiu-se então a função de cada membro da equipe dentro dessa metodologia. Além disso, foi apresentado e definido o método Kanban como forma de distribuição de afazeres.
 
 - 1.3 Evidências:
+
+<img src="img/metodologia.png" width="800px" height="250px">
+
+<img src="img/kanban.png" width="800px" height="500px">
 
 #### 2) Divisão de Papéis
 
@@ -189,6 +206,8 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - 5.2 Execução: O userflow foi elaborado utilizando a plataforma Miro, aplicando o que se encaixaria para atender aos requisitos funcionais e não funcionais.
 
 - 5.3 Evidências:
+
+<img src="img/evidencia-miro-userflow.jpeg">
 
 #### 6) Wireframes
 
