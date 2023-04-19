@@ -48,7 +48,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - **Equipe de Desenvolvimento**: Mirella Gabriela Silva Bonutty De Freitas, Lucas Marlon Oliveira De Jesus e João Leonardo Ohasi Amorim
 - **Equipe de Design**: Renan Stankevicius
 
-### Processo [A FAZER]
+### Processo
 
 
 #### Etapa 1
@@ -218,14 +218,6 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - 6.3 Evidências:
 
 <img src="img/evidencia-figma-wireframe.png">
-
-#### A) Introdução
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ### Ferramentas
 
