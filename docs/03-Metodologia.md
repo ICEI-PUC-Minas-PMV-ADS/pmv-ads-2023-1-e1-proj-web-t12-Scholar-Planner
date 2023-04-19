@@ -39,14 +39,10 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-- Scrum Master: Shigery França Dutra Sasaki
-- Product Owner: Alice Coelho de Moura
-- Equipe de Desenvolvimento
-   - Mirella Gabriela Silva Bonutty De Freitas
-   - Lucas Marlon Oliveira De Jesus
-   - João Leonardo Ohasi Amorim
-- Equipe de Design
-   - Renan Stankevicius
+- **Product Owner**: Alice Coelho de Moura
+- **Scrum Master**: Shigery França Dutra Sasaki
+- **Equipe de Desenvolvimento**: Mirella Gabriela Silva Bonutty De Freitas, Lucas Marlon Oliveira De Jesus e João Leonardo Ohasi Amorim
+- **Equipe de Design**: Renan Stankevicius
 
 ### Processo [A FAZER]
 
