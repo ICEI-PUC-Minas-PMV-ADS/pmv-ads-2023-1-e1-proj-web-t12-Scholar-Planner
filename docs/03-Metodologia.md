@@ -3,7 +3,11 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+O Scrum é baseado em um processo iterativo de entrega de software em ciclos curtos e regulares, chamados de sprints, portanto esse método foi o escolhido pois é centrado em equipes autônomas e multifuncionais, que trabalham juntas para alcançar objetivos comuns.
+
+O Scrum é dividido em Scrum Master, que atua como facilitador e orientador, e um Product Owner, que é responsável por definir os requisitos do projeto e priorizar o trabalho. OS desenvolvedores, como o próprio nome diz, realizam a parte operacional do desenvolvimento do projeto e ainda separamos um deles para cuidar da parte de Design por ter mais esperdice 
+
+As tarefas são priorizadas e organizadas em um backlog de produto, e nesse projeto a equipe se reunia duas vezes por semana para desenvolver o projeto, revisar o progresso e planejar o próximo passo auxiliado por outras fermentas externas de comunicação
 
 <!-- ## Controle de Versão
 
