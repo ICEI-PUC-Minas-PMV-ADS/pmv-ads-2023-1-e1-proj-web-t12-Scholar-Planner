@@ -72,17 +72,17 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 #### 3) Objetivos
 
-- 3.1 Planejamento: 
+- 3.1 Planejamento: Discutido no início do projeto a maneira como poderíamos facilitar ao usuário um acesso às suas atividades e afazeres do seu cotidiano, chegando a um acordo unanime sobre quais seriam os nossos objetivos e metas para o projeto.
 
-- 3.2 Execução: 
+- 3.2 Execução:  Elaboramos um método no qual podemos simplificar e organizar melhor as tarefas com o auxílio de uma interface mais acessível, facilitando ao usuário a organização de suas prioridades.
 
 - 3.3 Evidências:
 
 #### 4) Justificativa
 
-- 4.1 Planejamento: 
+- 4.1 Planejamento: Após realizar algumas pesquisas concluímos que é necessário a criação de uma ferramenta que facilite o planejamento diário de clientes que não possuem um cronograma definido, agravando no seu rendimento em todas as suas atividades.
 
-- 4.2 Execução: 
+- 4.2 Execução: Criamos personas fictícias com problemas reais do cotidiano para mostrar que pessoas que trabalham, estudam e tem afazeres domésticos precisam planejar melhor as suas tarefas do cotidiano e assim otimizando seu tempo.
 
 - 4.3 Evidências:
 
@@ -201,9 +201,9 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 #### 4) Ferramentas
 
-- 4.1 Planejamento: 
+- 4.1 Planejamento: Planejamos usar as ferramentas VScode e IntelliJ IDEA para a codificação e as ferramentas Figma e Canva para todo o Design do projeto. 
 
-- 4.2 Execução: 
+- 4.2 Execução: Foi ultilizado até o momento as Ferramentas Figma e Canva para executar as Personas, User Flow e os Wireframe.
 
 - 4.3 Evidências:
 
