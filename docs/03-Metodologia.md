@@ -53,179 +53,38 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 #### Etapa 1
 
+- 1.1 Planejamento: O projeto foi originado a partir de um debate em um grupo de WhatsApp de alunos que compartilharam suas dificuldades em gerir uma graduação com ensino à distância. A equipe realizou um levantamento de dados e vivências pessoais de alunos para entender melhor os problemas encontrados e concluiu que a criação de uma ferramenta poderia ajudar a melhorar o rendimento dos alunos em suas atividades diárias. A partir dessa ideia, a equipe se reuniu através do Discord para discutir e definir as funcionalidades da aplicação, sempre levando em consideração o ponto de vista do usuário.
 
-#### 1) Introdução
-
-- 1.1 Planejamento: Todas terças e quintas-feiras o time tem um encontro para definir o densenvolvimento do projeto. A introdução iniciou-se a partir de um debate em um grupo de WhatsApp de alunos que compartilharam suas dificuldades em gerir uma graduação com ensino à distância.
-
-- 1.2 Execução: Durante dois encontros foram feitas algumas pesquisas, como os motivos do aumento da busca por aprendizagem remota, seus pontos positivos e negativos. Além disso, houve um debate com os próprios integrantes do time sobre suas experiências com a modalidade EAD. Dessa forma, o time levantou dados e vivências para a construção da introdução.
+- 1.2 Execução: Durante as reuniões do time, foram realizadas pesquisas sobre os pontos positivos e negativos do ensino à distância, além de um debate sobre as experiências dos próprios integrantes. Com base nesses dados, foram identificados os principais desafios encontrados nessa modalidade de ensino. Foram criadas personas fictícias com problemas reais para exemplificar as dificuldades enfrentadas pelos alunos. A seleção do público-alvo foi feita com base em características frequentes de alunos de EAD. Essa etapa foi desenvolvida com base em exemplos obtidos em reuniões com o professor orientador. As histórias de usuário foram executadas de acordo com as necessidades das personas criadas. Houve uma revisão dos requisitos e a equipe definiu as definições imutáveis do projeto, como prazo e linguagem de programação.
 
 - 1.3 Evidências:
 
-#### 2) Problema
+> <img src="img/evidencia-discord-historias-de-usuarios.jpeg">
 
-- 2.1 Planejamento: A elaboração dos problemas encontrados deu-se por meio de levantamento de dados e vivências pessoais de alunos.
+> <img src="img/evidencia-personas-thiago-nunes.png">
 
-- 2.2 Execução: Diante dos dados levantados nas pesquisas, o time elencou alguns dos principais desafios encontrados no ensino à distância.
+> <img src="img/evidencia-pesquisa-applestore.jpeg" height="350px" width="500px">
 
-- 2.3 Evidências:
+> <img src="img/evidencia-requisitos.jpeg">
 
-#### 3) Objetivos
-
-- 3.1 Planejamento: Discutido no início do projeto a maneira como poderíamos facilitar ao usuário um acesso às suas atividades e afazeres do seu cotidiano, chegando a um acordo unanime sobre quais seriam os nossos objetivos e metas para o projeto.
-
-- 3.2 Execução:  Elaboramos um método no qual podemos simplificar e organizar melhor as tarefas com o auxílio de uma interface mais acessível, facilitando ao usuário a organização de suas prioridades.
-
-- 3.3 Evidências:
-
-#### 4) Justificativa
-
-- 4.1 Planejamento: Após realizar algumas pesquisas concluímos que é necessário a criação de uma ferramenta que facilite o planejamento diário de clientes que não possuem um cronograma definido, agravando no seu rendimento em todas as suas atividades.
-
-- 4.2 Execução: Criamos personas fictícias com problemas reais do cotidiano para mostrar que pessoas que trabalham, estudam e tem afazeres domésticos precisam planejar melhor as suas tarefas do cotidiano e assim otimizando seu tempo.
-
-- 4.3 Evidências:
-
-#### 5) Trabalhos Relacionados
-
-- 5.1 Planejamento: A equipe se reuniu através do Discord para discutir quais aplicações se assemelham com a ideia do que está sendo desenvolvido.
-
-- 5.2 Execução: Através de pesquisas na Web, foram filtradas algumas das aplicações mais relevantes para gestão de estudos, onde foi possível identificar recursos disponíveis, facilidade de uso, entre outros aspectos relevantes para fins de comparação.
-
-- 5.3 Evidências:
-
-<img src="img/evidencia-pesquisa-applestore.jpeg" height="350px" width="500px">
-
-<img src="img/evidencia-notion.jpeg" height="350px" width="600px">
-
-<img src="img/evidencia-notion-2.png">
-
-#### 6) Público-alvo
-
-- 6.1 Planejamento: Foram feitas reuniões via Discord para definir os critérios para a seleção de um público-alvo.
-
-- 6.2 Execução: Os critérios para a seleção de um público-alvo foram definidos com base em características frequentemente identificadas em alunos de ensino à distância que encontram dificuldades na gestão de seus estudos.
-
-- 6.3 Evidências:
-
-<img src="img/evidencia-publico-alvo.jpeg">
-
-#### 7) Especificações do Projeto
-
-- 7.1 Planejamento: A equipe se reuniu no Discord para definir a base que direcionaria cada segmento dessa parte do projeto e quem seria responsável por cada um deles. Ainda, foram obtidas orientações através de reunião com o professor no Microsoft Teams.
-
-- 7.2 Execução: Foram executados Brainstom e longa análise de dados e concorrência para definir as funcionalidades da aplicação. O desenvolvimento do contexto no qual a aplicação seria inserida, bem como a definição das personas que ilustram o público almejado, foram realizados de acordo com exemplos obtidos na reunião com o professor orientador.
-
-- 7.3 Evidências: 
-<img src="img/especificação_de_projeto.png" width="600px" height="200px">
-
-#### 8)Personas
-
-- 8.1 Planejamento: Após discussões da equipe acerca de quais seriam os perfis ideais de usuários, Renan criou suas identidades e o design de suas imagens.
-
-- 8.2 Execução: As fotos das personas foram obtidas através de bancos de imagens online livres de direitos autorais e as imagens foram criadas através da ferramenta de design do software Figma. As histórias e características foram desenvolvidas com base em perfis genéricos que se enquadrariam na proposta da aplicação e seguiram ajustes propostos pelo professor orientador.
-
-- 8.3 Evidências: 
-
-![Evidência Persona Thiago Nunes](img/evidencias-personas-thiago-nunes.png)
-
-![Evidência Persona Amanda Oliveira](img/evidencias-personas-amanda-oliveira.png)
-
-#### 9) Histórias de Usuários
-
-- 9.1 Planejamento: Após a definição e o design das personas, foi realizada uma reunião no Discord para discutir que funcionalidades a aplicação deveria apresentar, de acordo com o ponto de vista do usuário.
-
-- 9.2 Execução: A execução das histórias de usuários foram baseadas nas necessidades das personas. Através de sugestões do professor orientador, foram implementadas algumas mudanças, retirando "usuário: estudante de EAD" e adicionando as personas neste mesmo lugar, além disso, houveram alterações em "funcionalidades" e "motivo/valor".
-
-- 9.3 Evidências:
-
-<img src="img/evidencia-discord-historias-de-usuarios.jpeg">
-
-<img src="img/evidencia-github-historias-de-usuarios.jpeg">
-
-#### 10) Requisitos
-
-- 10.1 Planejamento: Alice demonstrou interesse em realizar os requisitos funcionais e não funcionais por ter experiência em realizar os mesmos, assim, ela ficou encarregada de elaborar esta parte.
-
-- 10.2 Execução: A execução dos requisitos foi realizada por Alice. Após orientação do professor orientador, foi realizada substituição de alguns requisitos. Com a revisão e aprovação de todos os membros do time, Shigery adicionou as mudanças ao Github.
-
-- 10.3 Evidências:
-
-<img src="img/evidencia-github-requisitos1.jpeg">
-
-<img src="img/evidencia-github-requisitos2.jpeg">
-
-<img src="img/evidencia-github-requisitos3.jpeg">
-
-#### 11) Restrições
-
-- 11.1 Planejamento: As restrições foram planejadas de acordo com a necessidade do projeto e em colaboração com grupo de desenvolvimnento.
-
-- 11.2 Execução: A equipe definiu quais seriam as definições imutáveis do desenvolvimento do projeto, como prazo, grau de complexidade do sistema e linguagem de programação utilizada.
-
-- 11.3 Evidências:
-
-<img src="img/resticoes.png" width="400px" height="150px">
-
+> <img src="img/evidencia-restricoes.png">
 
 #### Etapa 2
 
+2.1 Planejamento: Foram definidas as estratégias, metodologias e ferramentas a serem utilizadas no decorrer do projeto. O professor orientador se reuniu com as equipes de desenvolvimento para definir a metodologia ágil a ser utilizada ao longo do projeto, e posteriormente foram definidas as funções de cada membro da equipe dentro da metodologia aplicada. Foi realizada no Discord uma reunião com todos os integrantes da equipe para definir as ferramentas a serem utilizadas, como VSCode e IntelliJ IDEA para codificação, e Figma e Canva para design. Além disso, foi escolhida a plataforma na qual seria realizado o User flow.
 
-#### 1) Metodologia
+2.2 Execução: A metodologia SCRUM foi escolhida e implementada, com cada membro da equipe tendo uma função específica. Além disso, o método Kanban foi adotado para distribuir as tarefas. O User flow foi construído coletivamente na plataforma Miro levando em consideração os requisitos funcionais e não funcionais, e Renan, responsável pelas definições de design, esquematizou os wireframes da página de login e da página principal no Figma utilizando o User flow como base.
 
-- 1.1 Planejamento: O professor orientador realizou uma reunião com as equipes de desenvolvimento para definir a metodologia que seria empregada ao longo do projeto.
+2.3 Evidências: 
 
-- 1.2 Execução: Foi apresentada e escolhida a metodologia SCRUM. Definiu-se então a função de cada membro da equipe dentro dessa metodologia. Além disso, foi apresentado e definido o método Kanban como forma de distribuição de afazeres.
+> <img src="img/evidencia-metodologia.png" width="800px" height="250px">
 
-- 1.3 Evidências:
+> <img src="img/evidencia-kanban.png" width="800px" height="500px">
 
-<img src="img/metodologia.png" width="800px" height="250px">
+> <img src="img/evidencia-miro-userflow.jpeg">
 
-<img src="img/kanban.png" width="800px" height="500px">
+> <img src="img/evidencia-figma-wireframe.png">
 
-#### 2) Divisão de Papéis
-
-- 2.1 Planejamento: Através de reuniões da equipe, foram discutidas quais seriam as funções ideais de cada membro dentro da metodologia aplicada.
-
-- 2.2 Execução: A divisão de papéis no modelo SCRUM foi definida de modo que cada membro da equipe tivesse uma função específica e bem definida, para trabalhar em colaboração e garantir a eficiência e qualidade do produto final.
-
-- 2.3 Evidências:
-
-#### 3) Processo
-
-- 3.1 Planejamento: 
-
-- 3.2 Execução: 
-
-- 3.3 Evidências:
-
-#### 4) Ferramentas
-
-- 4.1 Planejamento: Planejamos usar as ferramentas VScode e IntelliJ IDEA para a codificação e as ferramentas Figma e Canva para todo o Design do projeto. 
-
-- 4.2 Execução: Foi ultilizado até o momento as Ferramentas Figma e Canva para executar as Personas, User Flow e os Wireframe.
-
-- 4.3 Evidências:
-
-#### 5) Userflow
-
-- 5.1 Planejamento: Foi realizada reunião no Discord para definir a plataforma a ser utilizada para a elaboração do userflow. Definiu-se que seria desenvolvido com a presença de todos os integrantes da equipe.
-
-- 5.2 Execução: O userflow foi elaborado utilizando a plataforma Miro, aplicando o que se encaixaria para atender aos requisitos funcionais e não funcionais.
-
-- 5.3 Evidências:
-
-<img src="img/evidencia-miro-userflow.jpeg">
-
-#### 6) Wireframes
-
-- 6.1 Planejamento: Sendo responsável pelas definições de design, Renan utilizou o Userflow como base para a elaboração dos wireframes da aplicação.
-
-- 6.2 Execução: Utilizando o software Figma, foram esquematizados os wireframes da página de login e da página principal da aplicação.
-
-- 6.3 Evidências:
-
-<img src="img/evidencia-figma-wireframe.png">
 
 ### Ferramentas
 
