@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600;700&display=swap');
+
+
+body{
+    background: linear-gradient(#00003F, #2a2a9b);
+    height: 100vh;
+    font-family: Quicksand;
+    font-size: 16px;
+    text-align: center;
+}
+
+.linhasimples{
+    align-content: center;
+    height: 1px;
+    width: 700px;
+    background-color: white;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    font-family: Quicksand;
+    color: white;
+    
+}
+
+input{
+    border-radius: 5px;
+    margin: 5px;
+    font-family: Quicksand;
+    color: black;
+    font-weight: bold;
+}
+
+label{
+    width: 160;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: Quicksand;
+    font-size: medium;
+
+}
+
+button{
+    width: 130px;
+    height: 32px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #008cff;
+    font-family: "Quicksand";
+    color:  white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+    color: #07D7FF; 
+    letter-spacing: 5px;
+}
+
+h5{
+    font-family: 'Quicksand', sans-serif;
+    color:white; 
+    letter-spacing: 3px;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    margin: auto;
+}
