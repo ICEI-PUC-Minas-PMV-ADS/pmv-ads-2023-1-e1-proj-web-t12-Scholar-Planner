@@ -13,8 +13,8 @@ body{
     align-content: center;
     height: 1px;
     width: 700px;
-    background-color: rgb(211, 10, 10);
-    margin: auto;
+    background-color: rgb(206, 197, 254);
+    margin: 0 auto;
 }
 
 form{
@@ -27,7 +27,7 @@ form{
     margin: auto;
     padding: 10px;
     font-family: Quicksand;
-    color: white;
+    color: rgb(252, 248, 248);
     
 }
 
@@ -35,8 +35,9 @@ input{
     border-radius: 5px;
     margin: 5px;
     font-family: Quicksand;
-    color: black;
+    color: #060606;
     font-weight: bold;
+    
 }
 
 label{
@@ -58,9 +59,18 @@ button{
     color:  white;
     font-weight: bold;
     font-size: 15px;
+    border: 2px solid #7569fa;
+    box-shadow: #0a0915 0px 0px 12px 1px inset,
+                #18125a 0px 0px 12px 1px;
+    border-radius: 15px;
+    cursor: pointer;
+
+
 
 }
-
+button:hover{
+    opacity: 0.8;
+}
 h3{
     font-family: 'Quicksand', sans-serif;
     color: #07D7FF; 
@@ -75,6 +85,4 @@ h5{
 
 img {
     width: 250px;
-    height: auto;
-    margin: auto;
 }
