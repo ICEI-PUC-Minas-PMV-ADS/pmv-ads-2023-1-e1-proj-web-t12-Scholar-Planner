@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600;700&display=swap');
 
-
-body{
-    background: linear-gradient(#00003F, #2a2a9b);
-    height: 100vh;
-    font-family: Quicksand;
-    font-size: 16px;
-    text-align: center;
+body {
+  background: linear-gradient(#00003f, #2a2a9b);
+  height: 100vh;
+  font-family: Quicksand;
+  font-size: 16px;
+  text-align: center;
 }
 
 .linhasimples{
@@ -40,13 +39,12 @@ input{
     
 }
 
-label{
-    width: 160;
-    border-radius: 5px;
-    margin: 5px;
-    font-family: Quicksand;
-    font-size: medium;
-
+label {
+  width: 160;
+  border-radius: 5px;
+  margin: 5px;
+  font-family: Quicksand;
+  font-size: medium;
 }
 
 button{
@@ -65,8 +63,6 @@ button{
     border-radius: 15px;
     cursor: pointer;
 
-
-
 }
 button:hover{
     opacity: 0.8;
@@ -77,10 +73,16 @@ h3{
     letter-spacing: 5px;
 }
 
-h5{
-    font-family: 'Quicksand', sans-serif;
-    color:white; 
-    letter-spacing: 3px;
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: #07d7ff;
+  letter-spacing: 5px;
+}
+
+h5 {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  letter-spacing: 3px;
 }
 
 img {
