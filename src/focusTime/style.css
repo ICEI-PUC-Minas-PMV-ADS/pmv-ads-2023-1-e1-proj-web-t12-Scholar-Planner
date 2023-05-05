@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body{
+    background-color: #00003F;
+    color: #07D7FF;
+}
+
+h1{
+    font-size: 48px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    text-align: right;
+    line-height: 59px;
+    padding: 0 64px;
+    margin: 0;
+
+}
+
+.focustime{
+    margin-top: 8rem;
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+
+}
+
+.blue{
+    font-weight: 900;
+    color: #008CFF;
+    text-shadow: 0 0 0px #fff,
+0 0 50px #008CFF;
+}
+
+.time{
+    font-family: sans-serif,
+monospace;
+    font-weight: 300;
+    font-size: 48px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    width: 270px;
+    height: 270px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-family: sans-serif;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    width: 178px;
+
+}
+
+button{
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    font-size: 50px;
+    color: #07D7FF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:active{
+    transform: scale(0.90);
+}
+
+button:hover{
+    color: #008CFF;
+}
+
+.play{
+    display: block;
+}
+
+.pause{
+    display: none;
+}
+
+
