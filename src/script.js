@@ -10,7 +10,12 @@ function getUsername() {
 }
 
 function removeUsername() {
-  localStorage.removeItem('@SchoolPlaner/username');
+  const hasUsernameInLocalStorage = localStorage.getItem(
+    '@SchoolPlaner/username'
+  );
+  if (hasUsernameInLocalStorage) {
+    localStorage.removeItem('@SchoolPlaner/username');
+  }
 }
 
 function setErrorMessage() {
@@ -21,10 +26,11 @@ function setErrorMessage() {
 function login() {
   if (!inputUsername.value) {
     setErrorMessage();
-    removeUsername();
   } else {
     messageError.style.display = 'none';
     window.location.href = '../home/home.html';
     getUsername();
   }
 }
+
+removeUsername();
