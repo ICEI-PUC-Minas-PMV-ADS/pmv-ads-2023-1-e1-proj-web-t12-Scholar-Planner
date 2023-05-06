@@ -9,18 +9,18 @@ function getUsername() {
   localStorage.setItem('@SchoolPlaner/username', usernameValue);
 }
 
-function validateField() {
-  messageError.style.display = 'block';
-  messageError.innerHTML = 'Por favor, digite seu nome';
-}
-
 function removeUsername() {
   localStorage.removeItem('@SchoolPlaner/username');
 }
 
+function setErrorMessage() {
+  messageError.style.display = 'block';
+  messageError.innerHTML = 'Por favor, digite seu nome';
+}
+
 function login() {
   if (!inputUsername.value) {
-    validateField();
+    setErrorMessage();
     removeUsername();
   } else {
     messageError.style.display = 'none';
