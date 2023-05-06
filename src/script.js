@@ -5,14 +5,23 @@ const messageError = document.querySelector('.message-error');
 loginButton.addEventListener('click', login);
 
 function getUsername() {
-  const username = inputUsername.value;
-  localStorage.setItem('@SchoolPlaner/username', username);
+  const usernameValue = inputUsername.value;
+  localStorage.setItem('@SchoolPlaner/username', usernameValue);
+}
+
+function validateField() {
+  messageError.style.display = 'block';
+  messageError.innerHTML = 'Por favor, digite seu nome';
+}
+
+function removeUsername() {
+  localStorage.removeItem('@SchoolPlaner/username');
 }
 
 function login() {
   if (!inputUsername.value) {
-    messageError.style.display = 'block';
-    messageError.innerHTML = 'Por favor, digite seu nome';
+    validateField();
+    removeUsername();
   } else {
     messageError.style.display = 'none';
     window.location.href = '../home/home.html';
