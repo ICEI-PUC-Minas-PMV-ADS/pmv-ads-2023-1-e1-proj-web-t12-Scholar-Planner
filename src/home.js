@@ -7,3 +7,12 @@ function pageFocusTime(){
     window.location.href = "../focusTime/index.html"
 }
 
+
+const buttonteste = document.getElementById("teste")
+buttonteste.addEventListener("click", pagteste)
+
+function pagteste(){
+    window.location.href = "../testedraganddrop/index.html"
+}
+
+
