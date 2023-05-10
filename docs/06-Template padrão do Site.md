@@ -2,9 +2,13 @@
 
 ## Tela Inicial
 
+Durante o processo de tela inicial foi discutido 2 aspectos base sendo eles: Layout da Tela e como seria o Formato do Login. Inicialmente se pensarmos numa tela de login a primeira coisa que nos vem à cabeça seria um Usuário e Senha, mas como uma de nossas restrições é não trabalhar com um BackEnd não seria logico ter uma tela de Login dessa forma. Mas se não haveria isso, como personalizaríamos a página e salvamos o usuário? 
+
+A resposta foi colocar um nome que no qual o usuário se identificasse que apareceria na tela seguinte. Além disso o Layout teria que ser minimalista, mas ao mesmo tempo moderno e que representasse profissionalismo. Escolhemos a cor azul pois em geral, o azul escuro é associado à estabilidade, seriedade, segurança, poder, confiança, inteligência e profissionalismo. 
+
 ![LayoutTelaInicial](img/telainicial.png)
 
-## Layout Base
+## Layout Beta
 
 ![LayoutBase](img/Layout.png)
 )
