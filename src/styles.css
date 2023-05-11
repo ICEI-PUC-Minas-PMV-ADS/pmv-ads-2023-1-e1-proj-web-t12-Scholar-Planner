@@ -10,88 +10,80 @@
 body {
   width: 100%;
   height: 100vh;
-
   display: flex;
   flex-direction: column;
   align-items: center;
-
   padding: 30px 0;
-
-  background: linear-gradient(#00003f, #2a2a9b);
+  background: linear-gradient(#000027, #2a2a9b);
 }
 
 .scholar-planner-logo {
-  width: 30%;
-  max-width: 200px;
+  height: 9vh;
+  margin-block: 5vh;
 }
 
 .divider {
-  padding: 1px 0;
-  width: 60%;
+  padding: 1px;
+  width: 75%;
   background-color: rgb(206, 197, 254);
-
-  margin: 30px 0;
 }
 
 .header-container {
-  width: 90%;
-  margin-bottom: 30px;
+  margin-top: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
-
-  padding: 0 10px;
+  gap: 5vh;
+  text-align: center
 }
 
 .welcome-title {
   font-size: 20px;
   color: #07d7ff;
-  letter-spacing: 5px;
-  text-align: center;
+  letter-spacing: 8px;
 }
 
 .welcome-description {
-  max-width: 400px;
+  max-width: 600px;
   font-size: 18px;
   color: white;
-  letter-spacing: 3px;
+  letter-spacing: 6px;
 }
 
-
 .form-container {
-  width: 40%;
+  width: 42vh;
+  margin-top: 8vh;
+  padding-block: 1%;
   border: 2px solid rgb(206, 197, 254);
   border-radius: 4px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px black;
 }
 
 form {
-  width: 100%;
-  padding: 20px 0;
-
+  padding-block: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
-
+  gap: 3vh;
   color: rgb(252, 248, 248);
 }
 
-
 label {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
 }
 
 input {
-  width: 60%;
-  border-radius: 5px;
+  width: 240px;
+  height: 30px;
+  border-radius: 7px;
   font-family: Quicksand;
   color: #060606;
   font-weight: bold;
-  padding: 8px 0;
   border: none;
+  text-align: center;
 }
 
 .message-error {
@@ -103,35 +95,37 @@ input {
 }
 
 button {
-  width: 60%;
-  padding: 8px 0;
-  border-radius: 5px;
-
+  border: none;
+  height: 37px;
+  width: 160px;
+  border-radius: 8px;
   color: white;
-  font-size: 14px;
-  font-weight: bold;
-
-  border: 1px solid #7569fa;
+  font-size: 18px;
+  font-weight: 600;
   background-color: #008cff;
-  box-shadow: #0a0915 0px 0px 12px 1px inset, #18125a 0px 0px 12px 1px;
-  
   cursor: pointer;
 }
 
 button:hover {
-  opacity: 0.8;
+  background-color: #07d7ff;
+  color: black;
+  transition: 0.5s;
 }
 
-@media(max-width: 800px) {
-  body {
-    justify-content: center;
+@media (max-width: 600px) {
+  .header-container {
+    padding-inline: 5%;
   }
 
-  .form-container {
-    width: 80%;
+  .welcome-title {
+    font-size: 16px;
   }
 
   .welcome-description {
-    width: 80%;
+    font-size: 15px;
+  }
+
+  .divider {
+    width: 90%;
   }
 }
