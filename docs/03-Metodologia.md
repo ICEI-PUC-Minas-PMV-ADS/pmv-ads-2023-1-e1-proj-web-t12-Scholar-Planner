@@ -85,6 +85,19 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 > <img src="img/evidencia-figma-wireframe.png">
 
+#### Etapa 3
+•	1.1 Planejamentos: O planejamento da etapa 3 se baseou em requisitos mínimos para a funcionalidade do site. Em base, foram definidas funções para cada um através de nossa reunião semanal no Discord sendo que cada um deveria desenvolver ao menos alguma parte do código em HTML, CSS e Javascript. 
+
+•	1.2 Execução: 
+Shigery- Responsável pela criação do HTML CSS da tela de login além da funcionalidade em JavaScript da funcionalidade Drag and Drop dos Cards.
+Mirela- Ficou responsável pelo HTML e CSS das colunas principais no qual seriam editáveis.
+Lucas- Responsável pela criação dos Cards. Desenvolveu o HTML e o CSS de cada um deles. Na etapa atual foi definido que não desenvolveríamos o JavaScript.
+Alice- Ficou responsável pelo JavaScript das funcionalidades que adicionavam e removiam as colunas que o usuário iria utilizar. A Alice também ficou responsável por tornar do botão da tela de Login responsivo para que o nome do cliente apareça na Home-Page.
+Leonardo- Responsável pelo desenvolvimento HTML, CSS e JavaScript da funcionalidade FocusTime. 
+Renan- Responsável pelo Design de todas as telas do projeto para depois ser desenvolvida pela equipe em HTML e CSS. Também ficou responsável por ajustes em CSS da tela principal.
+
+•	1.3 Evidências:
+
 
 ### Ferramentas
 
