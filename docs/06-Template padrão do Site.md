@@ -9,6 +9,13 @@ A resposta foi colocar um nome que no qual o usuário se identificasse que apare
 ![LayoutTelaInicial](img/telainicial.png)
 
 ## Layout Beta
+A respeito do programa em si em seu desenvolvimento foi pensado em um painel simples, isso se deve pela pesquisa de público-alvo que realizamos na etapa de Documentação de Contexto e no aprofundamento através das personas Thiago Nunes e Amanda Oliveira. As cores temas baseadas no azul escuro foram mantidas na plataforma.   
+
+Pensando neles, foi centralizada a maioria das funções em um painel principal, a nossa Home Page na qual foi trabalhada de forma que possa ser feito a adição e remoção de colunas editáveis de acordo com o que o usuário desejar, como pilares de estudo. 
+
+Dentro da região das colunas é permitido adicionar Cards nos quais as atividades podem ser cadastradas. Os Cards por sua vez são editáveis contando com formas de se colocar links, textos, imagens, anotações e vídeos. 
+
+Para deixar o estilo de criação mais livre a modalidade Drag and Drop que seria traduzida como Arrastar e Soltar foram adotados, permitindo mais liberdade e flexibilidade na criação do plano de estudos.
 
 ![LayoutBase](img/Layout.png)
 )
