@@ -1,4 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand';
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(#000027, #2a2a9b);
+  padding: 2%;
+}
+
+.logo {
+  height: 80px;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
 b {
   color: #008cff;
   text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.container-focusTime-button {
+  display: flex;
+  justify-content: end;
+}
+
+.focusTime-button {
+  width: 200px;
+  border-radius: 6px;
+  border: none;
+  background-color: #00C3E9;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 18px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.focusTime-button:hover {
+  background-color: red;
+  transition: 0.5s;
+}
+
+.clock-icon {
+  height: 30px;
+}
+
+.container-criarColuna {
+  width: 180px;
+  display: flex;
+  align-items: center;
+}
+
+.plus-icon {
+  position: relative;
+  height: 35px;
+  margin-right: -9px;
+}
+
+.criarColuna-button {
+  text-transform: uppercase;
+  font-size: 12px;
+  border: solid #07D7FF 1px;
+  height: 28px;
+  width: 140px;
+  border-radius: 20px;
+  color: #07D7FF;
+  background-color: #001B62;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+  body{
+    padding: 4%;
+  }
+
+  .container-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  h3 {
+    margin-top: 10%;
+  }
+
+  .container-focusTime-button {
+    margin-block: 15%;
+  }
+  
 }
