@@ -1,4 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600;700&display=swap%27%27');
 b {
   color: #008cff;
   text-transform: uppercase;
+}
+
+
+
+body {
+    background:#00003f;
+}
+
+input[type="text"] {
+    width: 128px;
+    height: 20px;
+    margin-top: 100px;
+    margin-left: 29px;
+    margin-right: 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(12, 12, 153);
+    border: 1px solid rgb(17, 211, 245);
+    color: white;
+    border-radius: 6px;
+    font-family: Quicksand;
+    font-size: 13px;
+    text-align: center;
+}
+
+::placeholder {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.column {
+    width: 153px;
+    height: 390px;
+    font-family: Quicksand;
+    color: white;
+    background-color: rgb(99, 101, 202); / fundo azul /
+    border: 2px solid rgb(99, 101, 202); 
+    border-radius: 10px;
+    margin: 20px 10px 10px 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.botao-novatarefa {
+    margin-top: 400px;
+    font-family: Quicksand;
+    color:darkturquoise;
+    background: #00003f;
+    margin-top: 340px;
+    width: 125px;
+    height: 25px;
+    border-radius: 6px 6px 6px 6px;
 }
