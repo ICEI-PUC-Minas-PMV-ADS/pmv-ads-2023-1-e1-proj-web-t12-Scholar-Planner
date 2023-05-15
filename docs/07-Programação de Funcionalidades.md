@@ -1,15 +1,73 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+# Funcionalidades do sistema
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são são apresentadas na sequência.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+### Landing page
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+#### TELA DE LOGIN
+A tela principal apresenta um menu simples para entrada através do nome ou apelido que a pessoa escolher. Após o click somos direcionas para a tela de Home na qual será exibido o nome da pessoa junto com o a tela de planejamento. Se você nao colocar nada dentro do campo "Digite seu nome" aparecerá uma mensagem informando que você precisa de digitar algo para porsseguir.
+
+![LayoutTelaInicial](img/telainicial.png)
+
+__Requisitos atendidos__
+* RF-001 - O sistema deve permitir acesso por uma tela de login.;
+
+__Artefatos da funcionalidade__
+* index.html;
+* style.css;
+* script.js
+
+__Instruções de acesso__
+
+1. Abra um navegador de internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t12-dynamic-ead/src/
+2. Digite seu Apelido e clique em Entrar.
+
+#### HOME-PAGE
+A Home-Page tem várias funcionalidades sendo elas as Colunas, os Cards e o FocusTime. A intenção é  ter uma tela interativa e de fácil compreensão do usuário podendo arrastar e soltar, criar e deletar Colunas e Cards.
+
+![LayoutHome](img/Layout.png)
+
+__Requisitos atendidos__
+* RF-002 O sistema deve permitir a criação, edição e remoção de colunas de atividades.
+* RF-004 O sistema deve ter um metodo de gestão de tempo.   
+
+__Artefatos da funcionalidade__
+
+* src/home/home.html;
+* src/home/home.css;
+* src/home/home.js
+
+__Instruções de acesso__
+
+1. Faça o login.
+2. Clique no botao "CRIAR COLUNA" uma coluna será adicionada.
+3. Clique no botão "EXCLIR COLUNA" e a coluna será excluida.
+4. Clique no botão "FOCUSTIME" e sera direcionado para a o cronometro.
+
+
+#### HOME-PAGE
+FocusTime é uma ferramenta de gestão do tempo, como base tem um cronometro que marcara o tempo de estudo.
+
+![LayoutFocusTime](img/focustime.png)
+
+__Requisitos atendidos__
+* RF-004 O sistema deve ter um metodo de gestão de tempo.   
+
+__Artefatos da funcionalidade__
+
+* src/focus-time/index.html
+* src/focus-time/script.js
+* src/focus-time/style.css
+
+__Instruções de acesso__
+
+
+1. Clique no botao "START" o cronometro se inicia.
+2. Clique no botão "STOP" o cronometro para.
+3. Clique no botão "RESET" o cronometro zera.
+4. Clique no botão "VOLTAR" e voltara para página HOME-PAGE.
+
+
+
