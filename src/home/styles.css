@@ -70,6 +70,7 @@ header {
 .criarColuna-button-container {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .container-criarColuna {
@@ -94,7 +95,6 @@ header {
   color: #07D7FF;
   background-color: #001B62;
   font-weight: 600;
-  cursor: pointer;
 }
 
 @media (max-width: 600px) {
