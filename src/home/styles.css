@@ -1,62 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600;700&display=swap%27%27');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand';
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(#000027, #2a2a9b);
+  padding: 2%;
+}
+
+.logo {
+  height: 50px;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
 b {
   color: #008cff;
   text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-focusTime-button {
+  display: flex;
+  justify-content: end;
+}
+
+.focusTime-button {
+  width: 200px;
+  border-radius: 6px;
+  border: none;
+  background-color: #00C3E9;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 18px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.focusTime-button:hover {
+  background-color: red;
+  transition: 0.5s;
+}
+
+.clock-icon {
+  height: 30px;
+}
+
+.criarColuna-button-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container-criarColuna {
+  display: flex;
+  flex-direction: column;
 }
 
 
-
-body {
-    background:#00003f;
+.plus-icon {
+  position: relative;
+  height: 35px;
+  margin-right: -9px;
 }
 
-input[type="text"] {
-    width: 128px;
-    height: 20px;
-    margin-top: 100px;
-    margin-left: 29px;
-    margin-right: 5px;
-    padding: 5px 5px 5px 5px;
-    background-color: rgb(12, 12, 153);
-    border: 1px solid rgb(17, 211, 245);
-    color: white;
-    border-radius: 6px;
-    font-family: Quicksand;
-    font-size: 13px;
-    text-align: center;
+.criarColuna-button {
+  text-transform: uppercase;
+  font-size: 12px;
+  border: solid #07D7FF 1px;
+  height: 28px;
+  width: 140px;
+  border-radius: 20px;
+  color: #07D7FF;
+  background-color: #001B62;
+  font-weight: 600;
 }
 
-::placeholder {
-    color: white;
-}
+@media (max-width: 600px) {
 
-.container {
+  body{
+    padding: 4%;
+  }
+
+  .container-logo {
     display: flex;
     justify-content: center;
-    align-items: center;
+  }
+
+  h3 {
+    margin-top: 10%;
+  }
+
+  .container-focusTime-button {
+    margin-block: 15%;
+  }
+  
 }
 
+.columns-container {
+  display: flex;
+}
 
 .column {
-    width: 153px;
-    height: 390px;
-    font-family: Quicksand;
-    color: white;
-    background-color: rgb(99, 101, 202); / fundo azul /
-    border: 2px solid rgb(99, 101, 202); 
-    border-radius: 10px;
-    margin: 20px 10px 10px 20px;
-    display: flex;
-    align-items:center;
-    justify-content: center;
+  width: 153px;
+  height: 390px;
+  font-family: Quicksand;
+  color: white;
+  background-color: rgb(99, 101, 202);
+  border: 2px solid rgb(99, 101, 202); 
+  border-radius: 10px;
+  margin: 20px 10px 10px 20px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
 }
+
 .botao-novatarefa {
-    margin-top: 400px;
-    font-family: Quicksand;
-    color:darkturquoise;
-    background: #00003f;
-    margin-top: 340px;
-    width: 125px;
-    height: 25px;
-    border-radius: 6px 6px 6px 6px;
+  margin-top: 400px;
+  font-family: Quicksand;
+  color:darkturquoise;
+  background: #00003f;
+  margin-top: 340px;
+  width: 125px;
+  height: 25px;
+  border-radius: 6px 6px 6px 6px;
 }

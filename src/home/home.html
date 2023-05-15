@@ -5,49 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link REL="SHORTCUT ICON" HREF="/images/fav-icon.png">
+    <link rel="SHORTCUT ICON" href="/images/fav-icon.png" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="home.js"></script>
   </head>
   <body>
-    <h3>Olá, <b class="username"></b></h3>
-    <button id="focusTime-button">Focus Time</button>
-    <!-- <button id="teste">buttonteste</button> -->
-
-    <div class="form-column">
-        <form>
-           <input type="text" class="input-class" placeholder="Nome da coluna" required>
-           <input type="text" class="input-class" placeholder="Nome da coluna" required>
-           <input type="text" class="input-class" placeholder="Nome da coluna" required>
-           <input type="text" class="input-class" placeholder="Nome da coluna" required>
-           <input type="text" class="input-class" placeholder="Nome da coluna" required>
-           <input type="text" class="input-class" placeholder="Nome da coluna" required>
-           <input type="text" class="input-class" placeholder="Nome da coluna" required>
-        </form>
-       </div>
     <!--div da coluna e botao de nova tarefa-->
-    <div class="container">
-        <div class="column">
-            <button class="botao-novatarefa"> + Nova Tarefa </button>
-        </div>
-        <div class="column">
-            <button class="botao-novatarefa"> + Nova Tarefa </button>
-        </div>
-        <div class="column">
-            <button class="botao-novatarefa"> + Nova Tarefa </button>
-        </div>
-        <div class="column">
-            <button class="botao-novatarefa"> + Nova Tarefa </button>
-        </div>
-        <div class="column">
-            <button class="botao-novatarefa"> + Nova Tarefa </button>
-        </div>
-        <div class="column">
-            <button class="botao-novatarefa"> + Nova Tarefa </button>
-        </div>
-        <div class="column">
-            <button class="botao-novatarefa"> + Nova Tarefa </button>
-        </div>
+
+    <header>
+      <div class="container-logo">
+        <img class="logo" src="/images/logo.png" alt="Logo" />
+      </div>
+      <div class="container-focusTime-button">
+        <button class="focusTime-button" id="focusTime-button">
+          <img
+            class="clock-icon"
+            src="/images/clock-icon.png"
+            alt="Ícone relógio"
+          />
+          <div class="focusTime-text">focus Time</div>
+        </button>
+      </div>
+    </header>
+
+    <h3>Olá, <b class="username"></b>.</h3>
+
+    <div class="container-criarColuna">
+      <div class="criarColuna-button-container">
+        <img class="plus-icon" src="/images/plus-icon.png" alt="Ícone adição" />
+        <button class="criarColuna-button" id="add-column-button">
+          criar coluna
+        </button>
+      </div>
+
+      <div class="columns-container" id="columns-container"></div>
     </div>
   </body>
 </html>

@@ -20,7 +20,7 @@ function removeUsername() {
 
 function setErrorMessage() {
   messageError.style.display = 'block';
-  messageError.innerHTML = 'Por favor, digite seu nome';
+  messageError.innerHTML = 'Por favor, digite seu nome.';
 }
 
 function login() {
