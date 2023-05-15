@@ -28,7 +28,7 @@ function login() {
     setErrorMessage();
   } else {
     messageError.style.display = 'none';
-    window.location.href = '../home/index.html';
+    window.location.href = '../home/home.html';
     getUsername();
   }
 }
