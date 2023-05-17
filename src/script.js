@@ -4,7 +4,7 @@ const messageError = document.querySelector('.message-error');
 
 loginButton.addEventListener('click', login);
 
-function getUsername() {
+function setUsername() {
   const usernameValue = inputUsername.value;
   localStorage.setItem('@SchoolPlaner/username', usernameValue);
 }
@@ -28,8 +28,8 @@ function login() {
     setErrorMessage();
   } else {
     messageError.style.display = 'none';
-    window.location.href = '../home/home.html';
-    getUsername();
+    setUsername();
+    window.location.href = 'home/home.html';
   }
 }
 
