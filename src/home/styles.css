@@ -44,7 +44,7 @@ header {
   width: 200px;
   border-radius: 6px;
   border: none;
-  background-color: #00C3E9;
+  background-color: #00c3e9;
   color: white;
   text-transform: uppercase;
   font-weight: 600;
@@ -78,7 +78,6 @@ header {
   flex-direction: column;
 }
 
-
 .plus-icon {
   position: relative;
   height: 35px;
@@ -88,18 +87,17 @@ header {
 .criarColuna-button {
   text-transform: uppercase;
   font-size: 12px;
-  border: solid #07D7FF 1px;
+  border: solid #07d7ff 1px;
   height: 28px;
   width: 140px;
   border-radius: 20px;
-  color: #07D7FF;
-  background-color: #001B62;
+  color: #07d7ff;
+  background-color: #001b62;
   font-weight: 600;
 }
 
 @media (max-width: 600px) {
-
-  body{
+  body {
     padding: 4%;
   }
 
@@ -115,7 +113,6 @@ header {
   .container-focusTime-button {
     margin-block: 15%;
   }
-  
 }
 
 .columns-container {
@@ -128,18 +125,18 @@ header {
   font-family: Quicksand;
   color: white;
   background-color: rgb(99, 101, 202);
-  border: 2px solid rgb(99, 101, 202); 
+  border: 2px solid rgb(99, 101, 202);
   border-radius: 10px;
   margin: 20px 10px 10px 20px;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
 }
 
 .botao-novatarefa {
   margin-top: 400px;
   font-family: Quicksand;
-  color:darkturquoise;
+  color: darkturquoise;
   background: #00003f;
   margin-top: 340px;
   width: 125px;
@@ -147,7 +144,7 @@ header {
   border-radius: 6px 6px 6px 6px;
 }
 
-.card{
+.card {
   width: 90%;
   height: 140px;
   background-color: #00003f;
@@ -156,10 +153,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
-.name-task{
+.name-task {
   font-size: 12px;
   margin-bottom: 6px;
   background-color: #008cff;
@@ -167,36 +163,28 @@ header {
   padding: 4px 0;
 }
 
-.content-card{
+.content-card {
   background: #fff;
-  font-size: 10px ;
+  font-size: 10px;
   color: #000;
   padding: 10px 4px;
   margin-bottom: 6px;
 }
 
-.box-actions-button{
-  display: flex; 
+.box-actions-button {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.box-actions-button button{
-border:none;
-width:15px ;
-height:15px ;
-cursor: pointer;
-
-
+.box-actions-button button {
+  border: none;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
 }
 
-.guia-drag{
-  font-size: 30px;
-  border: 1px solid #09ec55;
-  display: flex;
-  align-items:flex-start;
-  justify-content: center;
-  
-
+.guia-drag {
+  font-size: 16px;
 }
+
