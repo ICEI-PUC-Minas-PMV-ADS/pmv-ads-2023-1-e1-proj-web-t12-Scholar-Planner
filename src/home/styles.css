@@ -146,3 +146,57 @@ header {
   height: 25px;
   border-radius: 6px 6px 6px 6px;
 }
+
+.card{
+  width: 90%;
+  height: 140px;
+  background-color: #00003f;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.name-task{
+  font-size: 12px;
+  margin-bottom: 6px;
+  background-color: #008cff;
+  text-align: center;
+  padding: 4px 0;
+}
+
+.content-card{
+  background: #fff;
+  font-size: 10px ;
+  color: #000;
+  padding: 10px 4px;
+  margin-bottom: 6px;
+}
+
+.box-actions-button{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.box-actions-button button{
+border:none;
+width:15px ;
+height:15px ;
+cursor: pointer;
+
+
+}
+
+.guia-drag{
+  font-size: 30px;
+  border: 1px solid #09ec55;
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  
+
+}
