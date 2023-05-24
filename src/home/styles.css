@@ -161,6 +161,7 @@ header {
   background-color: #008cff;
   text-align: center;
   padding: 4px 0;
+  border-radius: 4px;
 }
 
 .content-card {
@@ -169,6 +170,9 @@ header {
   color: #000;
   padding: 10px 4px;
   margin-bottom: 6px;
+  width: 100%;
+  height: 50%;
+  border-radius: 8px;
 }
 
 .box-actions-button {
@@ -179,12 +183,32 @@ header {
 
 .box-actions-button button {
   border: none;
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   cursor: pointer;
+  border-radius: 50%;
+  
 }
 
 .guia-drag {
   font-size: 16px;
 }
 
+.save-button{
+  background-color: green;
+}
+
+.delete-button{
+  background-color: red;
+}
+
+.linha{
+  width: 100px;
+  height: 1px;
+
+}
+
+.removeColumnButton{
+
+  background-color: #008cff;
+}
