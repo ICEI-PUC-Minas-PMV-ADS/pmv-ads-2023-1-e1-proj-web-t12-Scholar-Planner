@@ -179,6 +179,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-inline: 5%;
 }
 
 .box-actions-button button {
@@ -190,8 +191,19 @@ header {
   
 }
 
+.done-button {
+  background: none;
+  margin-inline: 2%;
+}
+
 .guia-drag {
   font-size: 16px;
+  margin-inline: 10%;
+}
+
+.delete-button {
+  background: none;
+  margin-inline: 2%;
 }
 
 .save-button{
