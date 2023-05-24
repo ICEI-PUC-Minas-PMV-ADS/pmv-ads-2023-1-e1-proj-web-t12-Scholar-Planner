@@ -36,7 +36,35 @@
         </button>
       </div>
 
-      <div class="columns-container" id="columns-container"></div>
+      <div class="columns-container" id="columns-container">
+        <div class="container">
+          <form class="todo-form">
+              <label for="todoInput"></label><input
+                      type="text"
+                      id="todoInput"
+                      placeholder="Digite sua tarefa aqui"/>
+              <button>
+                  <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="2"
+                          stroke="currentColor"
+                  >
+                      <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M12 4.5v15m7.5-7.5h-15"
+                      />
+                  </svg>
+              </button>
+          </form>
+          <div id="statusText"></div>
+          <ul id="todoList"></ul>
+      </div>
+      </div>
     </div>
   </body>
 </html>
