@@ -76,6 +76,7 @@ function renderColumn() {
     columnBox.append(columnsName, toDoListContainer, todoListUl);
 
     columnsContainer.appendChild(columnBox);
+    renderTodos(column.id);
   });
 }
 
@@ -223,8 +224,9 @@ function addTodo(event, id) {
     };
     getColumns[id].tasks.push(newTodo);
     saveColumn(getColumns);
-    // saveTodos();
     renderTodos(id);
+    // saveTodos();
+
     inputValue.value = '';
   }
 }
