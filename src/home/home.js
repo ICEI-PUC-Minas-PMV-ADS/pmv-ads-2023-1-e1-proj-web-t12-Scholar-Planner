@@ -16,39 +16,44 @@ getNameAndInsertsItOnTheScreen();
 // COLUNAS
 const columnsContainer = document.getElementById('columns-container');
 const addNewColumn = document.getElementById('add-column-button');
+const overlayModal = document.getElementById('overlay-content');
+const inputNameColumns = document.getElementById('name-column-input');
+const saveNamesColumn = document.querySelector('.save-column-name-button');
+const closeModalButton = document.querySelector('.modal-close');
 
 const getColumns =
   JSON.parse(localStorage.getItem('@SchoolPlaner/columns')) || [];
 
-// get -> pegar
+function openModalCreateColumn() {
+  overlayModal.style.display = 'flex';
+}
 
-// const columnsArray = [];
-
-function checkTheLengthOfArray(event) {
+function checkTheLengthOfArray() {
   if (getColumns.length < 7) {
-    createNewColumn(event);
+    openModalCreateColumn();
   } else {
     alert('Número máximo de colunas atingido.');
   }
 }
 
-function createNewColumn(event) {
-  const columnsName = prompt('Por favor, digite o nome da coluna');
-  // console.log(columnsContainer.closest('div'));
+function createNewColumn() {
+  let columnValues;
 
-  const columnValues = {
-    id: getColumns.length,
-    name: columnsName,
-    tasks: [],
-  };
+  if (inputNameColumns.value) {
+    columnValues = {
+      id: getColumns.length,
+      name: inputNameColumns.value,
+      tasks: [],
+    };
 
-  getColumns.push(columnValues);
-  saveColumn(getColumns);
-  // renderColumn();
-}
-
-function saveColumn(column) {
-  localStorage.setItem('@SchoolPlaner/columns', JSON.stringify(column));
+    getColumns.push(columnValues);
+    saveColumn(getColumns);
+    overlayModal.style.display = 'none';
+    inputNameColumns.value = '';
+    renderColumn();
+  } else {
+    alert('Por favor, digite o nome da coluna');
+  }
 }
 
 function renderColumn() {
@@ -68,9 +73,7 @@ function renderColumn() {
     inputToNewTask.id = `input-${column.id}`;
     const buttonToAddTask = document.createElement('button');
     buttonToAddTask.innerText = '+';
-    buttonToAddTask.addEventListener('click', (event) =>
-      addTodo(event, column.id)
-    );
+    buttonToAddTask.addEventListener('click', () => addTodo(column.id));
     toDoListContainer.append(inputToNewTask, buttonToAddTask);
 
     columnBox.append(columnsName, toDoListContainer, todoListUl);
@@ -80,48 +83,18 @@ function renderColumn() {
   });
 }
 
-renderColumn();
+function closeModal() {
+  overlayModal.style.display = 'none';
+}
 
-// function createColumn() {
-//   const column = document.createElement('div');
-//   column.classList.add('column');
-//   column.id = `column-${columnsArray.length}`;
-
-//   const todoForm = document.createElement('form');
-//   todoForm.classList.add('todo-form');
-//   todoForm.innerHTML = `
-//     <input
-//       type="text"
-//       id="todoInput"
-//       placeholder="Digite sua tarefa aqui"/>
-//     <button>
-//       <svg
-//         xmlns="http://www.w3.org/2000/svg"
-//         width="24"
-//         height="24"
-//         fill="none"
-//         viewBox="0 0 24 24"
-//         stroke-width="2"
-//         stroke="currentColor"
-//       >
-//         <path
-//           stroke-linecap="round"
-//           stroke-linejoin="round"
-//           d="M12 4.5v15m7.5-7.5h-15"
-//         />
-//       </svg>
-//     </button>`;
-
-//   const removeColumnButton = document.createElement('button');
-//   removeColumnButton.innerHTML = 'Excluir coluna';
-//   removeColumnButton.addEventListener('click', removeCurrentColumn);
-
-//   columnsContainer.appendChild(column);
-//   column.append(todoForm, removeColumnButton);
-//   columnsArray.push(column);
-// }
-
+// events
+saveNamesColumn.addEventListener('click', () => createNewColumn());
+closeModalButton.addEventListener('click', () => closeModal());
 addNewColumn.addEventListener('click', checkTheLengthOfArray);
+
+function saveColumn(column) {
+  localStorage.setItem('@SchoolPlaner/columns', JSON.stringify(column));
+}
 
 function removeCurrentColumn(event) {
   let currentColumn = event.currentTarget.parentElement;
@@ -129,25 +102,10 @@ function removeCurrentColumn(event) {
   columnsContainer.removeChild(currentColumn);
 }
 
-// todo-list
-// const todos = JSON.parse(localStorage.getItem('todos')) || [];
-
-// const todoForm = document.querySelector('.todo-form');
-// const todoInput = document.getElementById('todoInput');
-// const todoList = document.getElementById('todoList');
-// const statusText = document.getElementById('statusText');
-
-// todoForm.addEventListener('submit', (e) => {
-//   e.preventDefault();
-//   addTodo();
-// });
-
 function renderTodos(id) {
   const todoListUl = document.getElementById(`todo-list-${id}`);
-  // todoListUl.innerHTML = '';
 
   getColumns[id]?.tasks?.forEach((todo) => {
-    console.log(todo);
     const li = document.createElement('li');
     li.classList.add('todo-item');
 
@@ -191,6 +149,7 @@ function renderTodos(id) {
 }
 
 renderTodos();
+renderColumn();
 
 // function showStatus() {
 //   if (!todos.length) {
@@ -208,10 +167,8 @@ renderTodos();
 //   }
 // }
 
-function addTodo(event, id) {
+function addTodo(id) {
   const inputValue = document.getElementById(`input-${id}`);
-  const idOfTheColumn = document.getElementById(`todo-list-container-${id}`);
-
   const newTodoText = inputValue.value.trim();
 
   if (!newTodoText) {
@@ -225,27 +182,23 @@ function addTodo(event, id) {
     getColumns[id].tasks.push(newTodo);
     saveColumn(getColumns);
     renderTodos(id);
-    // saveTodos();
-
     inputValue.value = '';
   }
 }
 
-renderTodos();
-
 // function toggleDone(id) {
-//   const todo = todos.find((todo) => todo.id === id);
+//   const todo = getColumns[id].tasks.find((todo) => todo.id === id);
 //   todo.done = !todo.done;
 
-//   saveTodos();
+//   saveColumn(todo);
 //   renderTodos();
 // }
 
 // function removeTodo(id) {
-//   const todoIndex = todos.findIndex((todo) => todo.id === id);
+//   const todoIndex = getColumns[id].tasks.findIndex((todo) => todo.id === id);
 //   todos.splice(todoIndex, 1);
 
-//   saveTodos();
+//   saveColumn(todoIndex);
 //   renderTodos();
 // }
 
