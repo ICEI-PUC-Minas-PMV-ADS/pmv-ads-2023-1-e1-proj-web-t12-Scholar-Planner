@@ -37,6 +37,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .container-focusTime-button {
@@ -45,7 +46,7 @@ header {
 }
 
 .focusTime-button {
-  width: 200px;
+  width: 150px;
   border-radius: 6px;
   border: none;
   background-color: #00C3E9;
@@ -53,11 +54,12 @@ header {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 19px;
+  font-size: 12px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 8px 18px;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px;
   align-items: center;
   cursor: pointer;
 }
@@ -68,7 +70,7 @@ header {
 }
 
 .clock-icon {
-  height: 30px;
+  height: 24px;
 }
 
 #overlay-content {
@@ -177,8 +179,8 @@ header {
 }
 
 .column {
-  width: 153px;
-  height: 390px;
+  width: 200px;
+  height: 440px;
   font-family: Quicksand;
   color: white;
   background-color: rgb(99, 101, 202);
@@ -189,6 +191,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  padding: 4px 6px;
 }
 
 .botao-novatarefa {
@@ -212,7 +215,7 @@ header {
 .todo-form {
   width: 100%;
   background: #fff;
-  /* padding: 16px; */
+  padding: 10px 0;
   border-radius: 8px;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
   display: flex;
@@ -220,8 +223,14 @@ header {
   margin-bottom: 1rem;
 }
 
+.column ul {
+  width: 100%;
+  overflow-y: scroll;
+}
+
 .todo-form input {
   width: 80%;
+  padding-left: 10px;
   /* padding: 8px 16px; */
   /* font-size: 1.25rem; */
   font-size: 1;

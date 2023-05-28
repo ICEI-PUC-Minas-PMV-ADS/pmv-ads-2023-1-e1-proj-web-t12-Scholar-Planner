@@ -63,22 +63,27 @@ function renderColumn() {
     columnBox.id = column.id;
     const columnsName = document.createElement('p');
     columnsName.innerHTML = column.name;
+    // const editName = document.createElement('button');
+    // editName.id = `edit-column-${column.id}`;
+    // editName.innerHTML = '✏️';
+    // editName.addEventListener('click', () => editNameColumn(column.id));
 
-    const toDoListContainer = document.createElement('div');
+    const toDoListContainer = document.createElement('form');
     toDoListContainer.classList.add('todo-form');
     toDoListContainer.id = `todo-list-container-${column.id}`;
     const todoListUl = document.createElement('ul');
     todoListUl.id = `todo-list-${column.id}`;
     const inputToNewTask = document.createElement('input');
     inputToNewTask.id = `input-${column.id}`;
+    inputToNewTask.placeholder = 'Digite uma tarefa...';
     const buttonToAddTask = document.createElement('button');
     buttonToAddTask.innerText = '+';
     buttonToAddTask.addEventListener('click', () => addTodo(column.id));
     toDoListContainer.append(inputToNewTask, buttonToAddTask);
 
     columnBox.append(columnsName, toDoListContainer, todoListUl);
-
     columnsContainer.appendChild(columnBox);
+
     renderTodos(column.id);
   });
 }
@@ -95,6 +100,10 @@ addNewColumn.addEventListener('click', checkTheLengthOfArray);
 function saveColumn(column) {
   localStorage.setItem('@SchoolPlaner/columns', JSON.stringify(column));
 }
+
+// function editNameColumn(column) {
+//   openModalCreateColumn();
+// }
 
 function removeCurrentColumn(event) {
   let currentColumn = event.currentTarget.parentElement;

@@ -13,19 +13,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px 0;
   background: linear-gradient(#000027, #2a2a9b);
 }
 
-.scholar-planner-logo {
-  height: 9vh;
-  margin-block: 5vh;
+.logo-container {
+  width: 75%;
+  padding: 20px 0;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: center;
 }
 
-.divider {
-  padding: 1px;
-  width: 75%;
-  background-color: rgb(206, 197, 254);
+.scholar-planner-logo {
+  width: 150px;
 }
 
 .header-container {
@@ -44,10 +44,10 @@ body {
 }
 
 .welcome-description {
-  max-width: 600px;
+  max-width: 500px;
   font-size: 18px;
   color: white;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
 }
 
 .form-container {
