@@ -14,7 +14,7 @@ button {
 body {
   height: 100vh;
   background: linear-gradient(#000027, #2a2a9b);
-  padding: 2%;
+  padding: 1.2%;
 }
 
 .logo {
@@ -176,6 +176,7 @@ header {
 
 .columns-container {
   display: flex;
+
 }
 
 .column {
@@ -192,6 +193,7 @@ header {
   align-items: center;
   gap: 10px;
   padding: 4px 6px;
+  
 }
 
 .botao-novatarefa {
@@ -203,6 +205,7 @@ header {
   width: 125px;
   height: 25px;
   border-radius: 6px 6px 6px 6px;
+  
 }
 
 
@@ -210,22 +213,40 @@ header {
 .container {
   max-width: 400px;
   margin: auto;
+  
 }
 
 .todo-form {
   width: 100%;
   background: #fff;
-  padding: 10px 0;
+  padding: 10px 5px;
   border-radius: 8px;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
   display: flex;
   overflow: hidden;
   margin-bottom: 1rem;
+  
+}
+::-webkit-scrollbar{
+background-color:#000000 ;
+border-radius: 10px;
+width: 7px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #383aa3;
+  border-radius: 10px;
+  
 }
 
 .column ul {
   width: 100%;
+  height: 100%;
   overflow-y: scroll;
+  background-color: #00003F;
+  border-radius: 10px;
+  padding: 7px;
+
+
 }
 
 .todo-form input {
@@ -247,6 +268,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 30px;
+  
 }
 
 #statusText {
@@ -275,6 +298,8 @@ header {
 
 .todo-item span {
   flex: 1;
+  max-width: 70px;
+  word-wrap: break-word;
 }
 
 .todo-item .remove-button {

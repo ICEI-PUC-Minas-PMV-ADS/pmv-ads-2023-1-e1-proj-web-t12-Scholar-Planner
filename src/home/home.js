@@ -54,6 +54,7 @@ function createNewColumn() {
   } else {
     alert('Por favor, digite o nome da coluna');
   }
+  location.reload();
 }
 
 function renderColumn() {
@@ -203,13 +204,13 @@ function addTodo(id) {
 //   renderTodos();
 // }
 
-// function removeTodo(id) {
-//   const todoIndex = getColumns[id].tasks.findIndex((todo) => todo.id === id);
-//   todos.splice(todoIndex, 1);
+ function removeTodo(id) {
+   const todoIndex = getColumns[id].tasks.findIndex((todo) => todo.id === id);
+   todos.splice(todoIndex, 1);
 
-//   saveColumn(todoIndex);
-//   renderTodos();
-// }
+   saveColumn(todoIndex);
+   renderTodos();
+}
 
 // function saveTodos() {
 //   localStorage.setItem('todos', JSON.stringify(todos));
