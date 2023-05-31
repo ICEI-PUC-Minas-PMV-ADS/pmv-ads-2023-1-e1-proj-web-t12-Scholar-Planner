@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-    font-size: 48px;
+    font-size: 35px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 200;
     text-align: right;
@@ -17,13 +17,13 @@ h1{
 }
 
 .focustime{
-    margin-top: 8rem;
+    margin-top: 50px;
     display: grid;
     justify-items: center;
     grid-row-gap: 23px;
     width: 100%;
     padding-top: 25px;
-
+    
 }
 
 .blue{
@@ -37,7 +37,7 @@ h1{
     font-family: sans-serif,
 monospace;
     font-weight: 300;
-    font-size: 48px;
+    font-size: 38px;
 }
 
 .circle{
@@ -45,8 +45,8 @@ monospace;
     justify-content: center;
     align-items: center;
     border: 2px solid;
-    width: 270px;
-    height: 270px;
+    width: 170px;
+    height: 170px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -65,7 +65,7 @@ button{
     padding: 0;
     border: none;
     margin: 0;
-    font-size: 50px;
+    font-size: 40px;
     color: #07D7FF;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -86,5 +86,3 @@ button:hover{
 .pause{
     display: none;
 }
-
-
