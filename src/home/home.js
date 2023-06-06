@@ -58,13 +58,32 @@ function createNewColumn() {
 }
 
 function renderColumn() {
+  columnsContainer.innerHTML = '';
+  
   getColumns.forEach((column) => {
     const columnBox = document.createElement('div');
     columnBox.classList.add('column');
     columnBox.id = column.id;
     const columnsName = document.createElement('p');
     columnsName.innerHTML = column.name;
-    // const editName = document.createElement('button');
+    
+
+
+    //SHIGERY REMOVE COLUNA
+    //INICIO
+
+  const removecolumn = document.createElement('button'); //entrou um botao
+  removecolumn.classList.add('removecolumn'); //add uma classe para pode usar o css
+  removecolumn.innerHTML = '<p> EXCLUIR COLUNA</p>'; // inclui um texto dentro do botao
+  removecolumn.id = column.id; // identifiquei q o id é o mesmo do da coluna
+  removecolumn.addEventListener('click', delet); //se clicar ele vai direcionar para a função delet
+  console.log (removecolumn) //so para ver se ta funcinando o botao
+
+  
+  
+    //FIM
+
+    //const editName = document.createElement('button');
     // editName.id = `edit-column-${column.id}`;
     // editName.innerHTML = '✏️';
     // editName.addEventListener('click', () => editNameColumn(column.id));
@@ -84,10 +103,29 @@ function renderColumn() {
 
     columnBox.append(columnsName, toDoListContainer, todoListUl);
     columnsContainer.appendChild(columnBox);
-
+    columnBox.appendChild(removecolumn);
     renderTodos(column.id);
   });
 }
+
+//função deletar
+
+function delet(event) {
+  const buttonId = event.currentTarget.id; //eu to pegando o id do botao e indeificando que eu to fazendo isso pelo id
+  const columnIndex = getColumns.findIndex(column => column.id == buttonId); // tem que colocar um ou 2 = se nao n funciona
+  if (columnIndex !== -1) { // ele nao faz isso se nao tiver o parametro
+    getColumns.splice(columnIndex, 1); // Remove a coluna do array pelo índice
+    saveColumn(getColumns); // salva o deletar
+    renderColumn(); //renderiza novamente a coluna
+   
+  }
+  
+}
+  
+
+
+
+//fim
 
 function closeModal() {
   overlayModal.style.display = 'none';
@@ -212,6 +250,6 @@ function addTodo(id) {
    renderTodos();
 }
 
+
 // function saveTodos() {
 //   localStorage.setItem('todos', JSON.stringify(todos));
-// }
