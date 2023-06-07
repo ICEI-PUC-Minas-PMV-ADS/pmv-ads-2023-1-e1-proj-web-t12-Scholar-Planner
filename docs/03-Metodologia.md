@@ -71,11 +71,11 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 #### Etapa 2
 
-2.1 Planejamento: Foram definidas as estratégias, metodologias e ferramentas a serem utilizadas no decorrer do projeto. O professor orientador se reuniu com as equipes de desenvolvimento para definir a metodologia ágil a ser utilizada ao longo do projeto, e posteriormente foram definidas as funções de cada membro da equipe dentro da metodologia aplicada. Foi realizada no Discord uma reunião com todos os integrantes da equipe para definir as ferramentas a serem utilizadas, como VSCode e IntelliJ IDEA para codificação, e Figma e Canva para design. Além disso, foi escolhida a plataforma na qual seria realizado o User flow.
+- 2.1 Planejamento: Foram definidas as estratégias, metodologias e ferramentas a serem utilizadas no decorrer do projeto. O professor orientador se reuniu com as equipes de desenvolvimento para definir a metodologia ágil a ser utilizada ao longo do projeto, e posteriormente foram definidas as funções de cada membro da equipe dentro da metodologia aplicada. Foi realizada no Discord uma reunião com todos os integrantes da equipe para definir as ferramentas a serem utilizadas, como VSCode e IntelliJ IDEA para codificação, e Figma e Canva para design. Além disso, foi escolhida a plataforma na qual seria realizado o User flow.
 
-2.2 Execução: A metodologia SCRUM foi escolhida e implementada, com cada membro da equipe tendo uma função específica. Além disso, o método Kanban foi adotado para distribuir as tarefas. O User flow foi construído coletivamente na plataforma Miro levando em consideração os requisitos funcionais e não funcionais, e Renan, responsável pelas definições de design, esquematizou os wireframes da página de login e da página principal no Figma utilizando o User flow como base.
+- 2.2 Execução: A metodologia SCRUM foi escolhida e implementada, com cada membro da equipe tendo uma função específica. Além disso, o método Kanban foi adotado para distribuir as tarefas. O User flow foi construído coletivamente na plataforma Miro levando em consideração os requisitos funcionais e não funcionais, e Renan, responsável pelas definições de design, esquematizou os wireframes da página de login e da página principal no Figma utilizando o User flow como base.
 
-2.3 Evidências: 
+- 2.3 Evidências: 
 
 > <img src="img/evidencia-metodologia.png" width="800px" height="250px">
 
@@ -86,12 +86,12 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 > <img src="img/evidencia-figma-wireframe.png">
 
 #### Etapa 3
-•	1.1 Planejamentos: O planejamento da etapa 3 se baseou em requisitos mínimos para a funcionalidade do site. Em base, foram definidas funções para cada um através de nossa reunião semanal no Discord sendo que cada um deveria desenvolver ao menos alguma parte do código em HTML, CSS e Javascript. 
+•	3.1 Planejamentos: O planejamento da etapa 3 se baseou em requisitos mínimos para a funcionalidade do site. Em base, foram definidas funções para cada um através de nossa reunião semanal no Discord sendo que cada um deveria desenvolver ao menos alguma parte do código em HTML, CSS e Javascript. 
 
-•	1.2 Execução: 
+•	3.2 Execução: 
    Shigery- Responsável pela criação do HTML CSS da tela de login além da funcionalidade em JavaScript da funcionalidade Drag and Drop dos Cards.
   
-   Mirela- Ficou responsável pelo HTML e CSS das colunas principais no qual seriam editáveis.
+   Mirella- Ficou responsável pelo HTML e CSS das colunas principais no qual seriam editáveis.
   
    Lucas- Responsável pela criação dos Cards. Desenvolveu o HTML e o CSS de cada um deles. Na etapa atual foi definido que não desenvolveríamos o JavaScript.
   
@@ -101,7 +101,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
   
    Renan- Responsável pelo Design de todas as telas do projeto para depois ser desenvolvida pela equipe em HTML e CSS. Também ficou responsável por ajustes em CSS da tela principal.
 
-•	1.3 Evidências:
+•	3.3 Evidências:
  ## Evolução do Leyout da Home-Page 
  
   ### V1
@@ -115,6 +115,38 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
   ### V3
   
  <img src="img/img_homev3.png">
+ 
+ #### Etapa 4
+- 4.1 Planejamento: O planejamento da etapa 4 baseou-se na implementação e modificação de determinadas funções do template padrão do site da aplicação, foram identificadas áreas que requeriam ajustes e aprimoramentos.
+
+- 4.2 Execução: Durante a execução, foram realizadas diversas modificações,remoções e adições no código. Inicialmente, estava previsto que os cards seriam responsaveis por toda a edição, nomeação de tarefas e a progressão de tarefas seriam medidas por meio de uma progressão em percentuais. No entanto, após recebermos orientação do nosso orientador, decidimos em conjunto adotar o modelo de lista de afazeres (to-do list) para a implementação. Com base nessa decisão, um novo modelo atualizado foi concretizado. Agora, o sistema consiste em uma lista de afazeres no formato de checklist, onde os usuários podem adicionar tarefas (tasks), marcar como concluídas e removê-las. 
+
+**Novas funcionalidades:**
+- Janela modal para edição de nome das colunas: Foi adicionada uma janela modal que permite editar o nome das colunas diretamente dentro delas, sem a necessidade de edição externa.
+
+- Contagem exata de tarefas realizadas e pendentes: Implementou-se um contador que exibe o número exato de tarefas concluídas e pendentes, proporcionando uma visão precisa do progresso.
+
+- Scroll-bar vertical personalizado e funcional de rolagem dentro da coluna: Adicionou-se uma barra de rolagem vertical personalizada para facilitar a visualização de até seis ou mais tarefas por vez. -Botão de apagar coluna funcional: Os usuários agora podem remover completamente uma coluna do sistema por meio de um botão específico.
+
+**Modificações:**
+
+- Remoção dos cards: Os cards que representavam as tarefas foram removidos para simplificar o design e a interação com o sistema.
+
+- Edição do nome da coluna dentro da coluna: O nome da coluna pode ser editado diretamente dentro da própria coluna, tornando o processo mais intuitivo.
+
+- Reposicionamento do botão de nova tarefa: O botão para adicionar uma nova tarefa foi movido para a parte superior da coluna, facilitando o acesso e uso.
+
+- Modificação da progressão de tarefas: A progressão de tarefas não é mais exibida em percentagens, mas sim como números inteiros representando as tarefas a fazer e as tarefas concluídas.
+- Botão de tarefa concluída dentro da própria tarefa: O botão para marcar uma tarefa como concluída foi movido para dentro da própria tarefa.
+
+
+-  4.3 Evidências:
+
+## Layout da evolução das novas funcionalidades e Modificações:
+
+### V1
+
+### V2
 
 ### Ferramentas
 
