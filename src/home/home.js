@@ -1,3 +1,8 @@
+// Criei overlaymodal pra fazer o pop-up - ohasi
+// Atualizei eventlisteners e variáveis Todo
+// func renderTodos atualizada
+
+
 const buttonTime = document.getElementById('focusTime-button');
 const username = document.querySelector('.username');
 
@@ -13,7 +18,6 @@ function pageFocusTime() {
 
 getNameAndInsertsItOnTheScreen();
 
-// COLUNAS
 const columnsContainer = document.getElementById('columns-container');
 const addNewColumn = document.getElementById('add-column-button');
 const overlayModal = document.getElementById('overlay-content');
@@ -21,7 +25,7 @@ const inputNameColumns = document.getElementById('name-column-input');
 const saveNamesColumn = document.querySelector('.save-column-name-button');
 const closeModalButton = document.querySelector('.modal-close');
 
-const getColumns =
+let getColumns =
   JSON.parse(localStorage.getItem('@SchoolPlaner/columns')) || [];
 
 function openModalCreateColumn() {
@@ -54,39 +58,23 @@ function createNewColumn() {
   } else {
     alert('Por favor, digite o nome da coluna');
   }
-  location.reload();
 }
 
 function renderColumn() {
   columnsContainer.innerHTML = '';
-  
+
   getColumns.forEach((column) => {
     const columnBox = document.createElement('div');
     columnBox.classList.add('column');
     columnBox.id = column.id;
     const columnsName = document.createElement('p');
     columnsName.innerHTML = column.name;
-    
 
-
-    //SHIGERY REMOVE COLUNA
-    //INICIO
-
-  const removecolumn = document.createElement('button'); //entrou um botao
-  removecolumn.classList.add('removecolumn'); //add uma classe para pode usar o css
-  removecolumn.innerHTML = '<p> EXCLUIR COLUNA</p>'; // inclui um texto dentro do botao
-  removecolumn.id = column.id; // identifiquei q o id é o mesmo do da coluna
-  removecolumn.addEventListener('click', delet); //se clicar ele vai direcionar para a função delet
-  console.log (removecolumn) //so para ver se ta funcinando o botao
-
-  
-  
-    //FIM
-
-    //const editName = document.createElement('button');
-    // editName.id = `edit-column-${column.id}`;
-    // editName.innerHTML = '✏️';
-    // editName.addEventListener('click', () => editNameColumn(column.id));
+    const removecolumn = document.createElement('button');
+    removecolumn.classList.add('removecolumn');
+    removecolumn.innerHTML = '<p> EXCLUIR COLUNA</p>';
+    removecolumn.id = column.id;
+    removecolumn.addEventListener('click', delet);
 
     const toDoListContainer = document.createElement('form');
     toDoListContainer.classList.add('todo-form');
@@ -98,7 +86,7 @@ function renderColumn() {
     inputToNewTask.placeholder = 'Digite uma tarefa...';
     const buttonToAddTask = document.createElement('button');
     buttonToAddTask.innerText = '+';
-    buttonToAddTask.addEventListener('click', () => addTodo(column.id));
+    buttonToAddTask.addEventListener('click', () => addTodoColumn(column.id));
     toDoListContainer.append(inputToNewTask, buttonToAddTask);
 
     columnBox.append(columnsName, toDoListContainer, todoListUl);
@@ -108,50 +96,33 @@ function renderColumn() {
   });
 }
 
-//função deletar
-
 function delet(event) {
-  const buttonId = event.currentTarget.id; //eu to pegando o id do botao e indeificando que eu to fazendo isso pelo id
-  const columnIndex = getColumns.findIndex(column => column.id == buttonId); // tem que colocar um ou 2 = se nao n funciona
-  if (columnIndex !== -1) { // ele nao faz isso se nao tiver o parametro
-    getColumns.splice(columnIndex, 1); // Remove a coluna do array pelo índice
-    saveColumn(getColumns); // salva o deletar
-    renderColumn(); //renderiza novamente a coluna
-   
+  const buttonId = event.currentTarget.id;
+  const columnIndex = getColumns.findIndex((column) => column.id == buttonId);
+  if (columnIndex !== -1) {
+    getColumns.splice(columnIndex, 1);
+    saveColumn(getColumns);
+    renderColumn();
   }
-  
 }
-  
-
-
-
-//fim
 
 function closeModal() {
   overlayModal.style.display = 'none';
 }
 
-// events
-saveNamesColumn.addEventListener('click', () => createNewColumn());
-closeModalButton.addEventListener('click', () => closeModal());
+renderColumn();
+
 addNewColumn.addEventListener('click', checkTheLengthOfArray);
+saveNamesColumn.addEventListener('click', createNewColumn);
+closeModalButton.addEventListener('click', closeModal);
 
 function saveColumn(column) {
   localStorage.setItem('@SchoolPlaner/columns', JSON.stringify(column));
 }
 
-// function editNameColumn(column) {
-//   openModalCreateColumn();
-// }
-
-function removeCurrentColumn(event) {
-  let currentColumn = event.currentTarget.parentElement;
-  columnsArray.splice(Number(currentColumn.id.split('-').at(-1)), 1);
-  columnsContainer.removeChild(currentColumn);
-}
-
 function renderTodos(id) {
   const todoListUl = document.getElementById(`todo-list-${id}`);
+  todoListUl.innerHTML = '';
 
   getColumns[id]?.tasks?.forEach((todo) => {
     const li = document.createElement('li');
@@ -164,7 +135,7 @@ function renderTodos(id) {
     const cb = document.createElement('input');
     cb.type = 'checkbox';
     cb.checked = todo.done;
-    cb.addEventListener('change', () => toggleDone(todo.id));
+    cb.addEventListener('change', () => toggleDone(todo.id, id));
 
     li.appendChild(cb);
 
@@ -178,7 +149,7 @@ function renderTodos(id) {
     const btn = document.createElementNS(xmlns, 'svg');
     btn.setAttribute('viewBox', '0 0 24 24');
     btn.classList.add('remove-button');
-    btn.addEventListener('click', () => removeTodo(todo.id));
+    btn.addEventListener('click', () => removeTodoColumn(todo.id, id));
 
     const path = document.createElementNS(xmlns, 'path');
     path.setAttribute(
@@ -192,30 +163,11 @@ function renderTodos(id) {
 
     todoListUl.appendChild(li);
   });
-
-  // showStatus();
 }
 
-renderTodos();
-renderColumn();
+// addToDoColumn atualizado - ohasi
 
-// function showStatus() {
-//   if (!todos.length) {
-//     statusText.textContent = 'Você não possui tarefas.';
-//     return;
-//   }
-
-//   const pending = todos.filter((todo) => !todo.done).length;
-//   if (pending === 0) {
-//     statusText.textContent = 'Tudo feito!';
-//   } else if (pending === 1) {
-//     statusText.textContent = '1 tarefa em andamento';
-//   } else {
-//     statusText.textContent = `${pending} / ${todos.length} tarefas em andamento`;
-//   }
-// }
-
-function addTodo(id) {
+function addTodoColumn(id) {
   const inputValue = document.getElementById(`input-${id}`);
   const newTodoText = inputValue.value.trim();
 
@@ -234,22 +186,32 @@ function addTodo(id) {
   }
 }
 
-// function toggleDone(id) {
-//   const todo = getColumns[id].tasks.find((todo) => todo.id === id);
-//   todo.done = !todo.done;
+// função remove atualizada - ohasi
 
-//   saveColumn(todo);
-//   renderTodos();
-// }
-
- function removeTodo(id) {
-   const todoIndex = getColumns[id].tasks.findIndex((todo) => todo.id === id);
-   todos.splice(todoIndex, 1);
-
-   saveColumn(todoIndex);
-   renderTodos();
+function removeTodoColumn(todoId, columnId) {
+  const columnIndex = getColumns.findIndex((column) => column.id == columnId);
+  if (columnIndex !== -1) {
+    const todoIndex = getColumns[columnIndex].tasks.findIndex(
+      (todo) => todo.id === todoId
+    );
+    if (todoIndex !== -1) {
+      getColumns[columnIndex].tasks.splice(todoIndex, 1);
+      saveColumn(getColumns);
+      renderTodos(columnId);
+    }
+  }
 }
 
+// toggleDone atualizada - ohasi
 
-// function saveTodos() {
-//   localStorage.setItem('todos', JSON.stringify(todos));
+function toggleDone(todoId, columnId) {
+  const columnIndex = getColumns.findIndex((column) => column.id == columnId);
+  if (columnIndex !== -1) {
+    const todo = getColumns[columnIndex].tasks.find((todo) => todo.id === todoId);
+    if (todo) {
+      todo.done = !todo.done;
+      saveColumn(getColumns);
+      renderTodos(columnId);
+    }
+  }
+}
