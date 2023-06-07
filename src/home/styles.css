@@ -235,7 +235,8 @@ width: 7px;
 ::-webkit-scrollbar-thumb{
   background-color: #383aa3;
   border-radius: 10px;
-  
+
+
 }
 
 .column ul {
@@ -349,7 +350,32 @@ width: 7px;
 }
 
 .removecolumn{
-  width: 100%;
-  height: 30px;
+  border: none;
+  height: 35px;
+  width: 190px;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #000027;
+  cursor: pointer;
+}
+#excluircolunas{
+  font-size: 10px;
+  letter-spacing: 3px;
+
 
 }
+
+.columnsname{
+  font-size: 17px;
+  width: 180px;
+  height: 45px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 8px;
+  text-transform: uppercase;
+  word-break: break-all;
+  word-break: break-word;
+}
+

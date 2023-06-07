@@ -56,7 +56,7 @@ function createNewColumn() {
     inputNameColumns.value = '';
     renderColumn();
   } else {
-    alert('Por favor, digite o nome da coluna');
+    alert('Por favor, digite o nome da coluna!');
   }
 }
 
@@ -68,11 +68,12 @@ function renderColumn() {
     columnBox.classList.add('column');
     columnBox.id = column.id;
     const columnsName = document.createElement('p');
+    columnsName.classList.add("columnsname")
     columnsName.innerHTML = column.name;
 
     const removecolumn = document.createElement('button');
     removecolumn.classList.add('removecolumn');
-    removecolumn.innerHTML = '<p> EXCLUIR COLUNA</p>';
+    removecolumn.innerHTML = '<p id="excluircolunas"> EXCLUIR COLUNA</p>';
     removecolumn.id = column.id;
     removecolumn.addEventListener('click', delet);
 
