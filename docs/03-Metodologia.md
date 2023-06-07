@@ -145,8 +145,11 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 ## Layout da evolução das novas funcionalidades e Modificações:
 
 ### V1
+<img src="img/Evidencia01-etapa04.png"> 
 
 ### V2
+<img src="img/Evidência02-etapa04.jpeg">
+
 
 ### Ferramentas
 
