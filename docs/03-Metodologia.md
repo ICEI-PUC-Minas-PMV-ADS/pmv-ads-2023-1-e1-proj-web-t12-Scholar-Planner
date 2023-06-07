@@ -140,7 +140,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - Botão de tarefa concluída dentro da própria tarefa: O botão para marcar uma tarefa como concluída foi movido para dentro da própria tarefa.
 
 
--  4.3 Evidências:
+-   4.3 Evidências:
 
 ## Layout da evolução das novas funcionalidades e Modificações:
 
