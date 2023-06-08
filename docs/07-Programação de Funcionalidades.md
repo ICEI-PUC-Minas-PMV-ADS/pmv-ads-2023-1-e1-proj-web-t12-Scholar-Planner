@@ -25,9 +25,10 @@ __Instruções de acesso__
 2. Digite seu Apelido e clique em Entrar.
 
 #### HOME-PAGE
-A Home-Page tem várias funcionalidades sendo elas as Colunas, os Cards e o FocusTime. A intenção é  ter uma tela interativa e de fácil compreensão do usuário podendo arrastar e soltar, criar e deletar Colunas e Cards.
+A Home-Page tem várias funcionalidades que incluem a capacidade de criar, intitular e remover colunas. Além disso, permite estabelecer tarefas, atribuir-lhes um nome e marcá-las como concluídas, também e possível efetuar a exclusão das tarefas. Adicionalmente, oferece o recurso de "focus-time", representado por um botão dedicado. 
+A intenção é  ter uma tela interativa e de fácil compreensão do usuário, proporcionando um ambiente propício para a administração efetiva das tarefas com o intuito maximização da produtividade.
 
-![LayoutHome](img/Layout.png)
+![LayoutHome](img/Evidência02-etapa04.jpeg)
 
 __Requisitos atendidos__
 * RF-002 O sistema deve permitir a criação, edição e remoção de colunas de atividades.
