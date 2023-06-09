@@ -14,17 +14,18 @@ button {
 body {
   height: 100vh;
   background: linear-gradient(#000027, #2a2a9b);
-  padding: 1.2%;
+  padding: 0.5%;
+  
 }
 
 .logo {
-  height: 50px;
+  height: 48px;
 }
 
 h3 {
   text-align: center;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 b {
@@ -66,7 +67,7 @@ header {
 
 .focusTime-button:hover {
   background-color: red;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 .clock-icon {
@@ -230,12 +231,13 @@ header {
 ::-webkit-scrollbar{
 background-color:#000000 ;
 border-radius: 10px;
-width: 7px;
+width: 9px;
+height: 10px;
 }
 ::-webkit-scrollbar-thumb{
   background-color: #383aa3;
   border-radius: 10px;
-
+  
 
 }
 
@@ -359,11 +361,11 @@ width: 7px;
   font-weight: 600;
   background-color: #000027;
   cursor: pointer;
+  
 }
 #excluircolunas{
   font-size: 10px;
   letter-spacing: 3px;
-
 
 }
 
@@ -373,9 +375,9 @@ width: 7px;
   height: 45px;
   font-weight: bold;
   text-align: center;
-  padding-top: 8px;
+  padding-top: 7px;
   text-transform: uppercase;
   word-break: break-all;
   word-break: break-word;
-}
 
+}
