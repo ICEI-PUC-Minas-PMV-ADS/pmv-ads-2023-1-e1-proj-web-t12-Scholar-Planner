@@ -1,19 +1,80 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+## Testes de Navegabilidade
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+Tem por objetivo verificar se todos os links são navegáveis, estão corretos e levam o usuário a uma outra tela existente na aplicação.
+Os Testes automatizados foram realizados através de: https://datayze.com/site-navigability-analyzer
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+<img src="img/teste-navegabilidade.png">
+
+
+## Teste de Responsabilidade
+
+Os testes de responsividade foram automatizados por Google. Teste de compatibilidade com dispositivos móveis atravez do link: https://search.google.com/test/mobile-friendly?hl=pt
+
+
+<img src="img/teste-responsividade.png">
+
+## Teste de Login
+
+Foram realizados três testes conforme GIF:
+
+- **1ª Tste**: Teste de Login sem nome;
+- **2ª Tste**: Teste de Login direto e direcinamento para Home-Page;
+- **3ª Tste**: Nick-Save (salvar o nome do usuario).
  
-## Ferramentas de Testes (Opcional)
+<img src="img/gif1.gif">
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+## Teste de Criação de Colunas
+
+Foram realizados três testes conforme GIF:
+
+- **1ª Tste**: Teste de Modal;
+- **2ª Tste**: Teste de Criação de Colunas sem nome;
+- **3ª Tste**: Teste de Criação de colunas com nome.
+
+
+<img src="img/gif2.gif">
+
+## Teste de Criar Tarefas
+
+Foram realizados dois testes conforme GIF:
+
+- **1ª Tste**: Teste de Criação de Tarefas;
+- **2ª Tste**: Teste de Limitação de area com rolagem;
+
+<img src="img/gif3.gif">
+
+## Teste Focus Time (Cronometro)
+
+Foram realizados dois testes conforme GIF:
+
+- **1ª Tste**: Teste de transição para a página Focus Time;
+- **2ª Tste**: Teste de Play, Pause e Reset;
+
+
+<img src="img/gif4.gif">
+
+## Teste de Conclusão de Tarefas
+
+Foram realizados dois testes conforme GIF:
+
+- **1ª Tste**: Teste de Tarefa Concluida;
+- **2ª Tste**: Teste de Excluir Tarefa;
+
+<img src="img/gif5.gif">
+
+## Teste de Exclusão de Colunas
+
+
+Foi realizado um teste conforme GIF:
+
+- **1ª Tste**: Teste de Exclusão de tarefa;
+
+<img src="img/gif6.gif">
+
+
+
+
+
+
