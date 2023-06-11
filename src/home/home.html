@@ -10,17 +10,16 @@
     <script defer src="home.js"></script>
   </head>
   <body>
-    <!--div da coluna e botao de nova tarefa-->
-
     <header>
       <div class="container-logo">
-        <img class="logo" src="../images/logo.png" alt="Logo" />
+        <img class="logo" src="/images/logo.png" alt="Logo" />
       </div>
+      <h3>Olá, <b class="username"></b>.</h3>
       <div class="container-focusTime-button">
         <button class="focusTime-button" id="focusTime-button">
           <img
             class="clock-icon"
-            src="../images/clock-icon.png"
+            src="/images/clock-icon.png"
             alt="Ícone relógio"
           />
           <div class="focusTime-text">focus Time</div>
@@ -28,17 +27,31 @@
       </div>
     </header>
 
-    <h3>Olá, <b class="username"></b>.</h3>
-
     <div class="container-criarColuna">
       <div class="criarColuna-button-container">
-        <img class="plus-icon" src="../images/plus-icon.png" alt="Ícone adição" />
+        <img class="plus-icon" src="/images/plus-icon.png" alt="Ícone adição" />
         <button class="criarColuna-button" id="add-column-button">
           criar coluna
         </button>
       </div>
 
       <div class="columns-container" id="columns-container"></div>
+    </div>
+    <div id="overlay-content">
+      <div class="modal">
+        <div class="body-modal">
+          <input
+            type="text"
+            placeholder="nome da coluna (maximo de 16 caracteres)"
+            maxlength="16"
+            id="name-column-input"
+          />
+          <button class="save-column-name-button">salvar</button>
+        </div>
+        <div class="footer-modal">
+          <button class="modal-close">fechar</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

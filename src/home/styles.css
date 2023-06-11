@@ -7,20 +7,25 @@
   font-family: 'Quicksand';
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   height: 100vh;
   background: linear-gradient(#000027, #2a2a9b);
-  padding: 2%;
+  padding: 0.5%;
+  
 }
 
 .logo {
-  height: 50px;
+  height: 48px;
 }
 
 h3 {
   text-align: center;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 b {
@@ -33,6 +38,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .container-focusTime-button {
@@ -41,7 +47,7 @@ header {
 }
 
 .focusTime-button {
-  width: 200px;
+  width: 150px;
   border-radius: 6px;
   border: none;
   background-color: #00C3E9;
@@ -49,22 +55,73 @@ header {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 19px;
+  font-size: 12px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 8px 18px;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px;
   align-items: center;
   cursor: pointer;
 }
 
 .focusTime-button:hover {
   background-color: red;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 .clock-icon {
-  height: 30px;
+  height: 24px;
+}
+
+#overlay-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:rgba(49, 48, 48, 0.486); 
+
+  display: none;
+}
+
+.modal {
+  width: 40%;
+  padding: 30px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.body-modal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-modal {
+  margin-top: 16px;
+  padding-top: 10px;
+  border-top: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal input {
+  width: 70%;
+  padding: 8px 16px;
+}
+
+.modal-close {
+  width: 40%;
+  padding: 8px;
+}
+
+.save-column-name-button {
+  flex: 1;
 }
 
 .criarColuna-button-container {
@@ -120,11 +177,12 @@ header {
 
 .columns-container {
   display: flex;
+
 }
 
 .column {
-  width: 153px;
-  height: 390px;
+  width: 200px;
+  height: 440px;
   font-family: Quicksand;
   color: white;
   background-color: rgb(99, 101, 202);
@@ -132,8 +190,11 @@ header {
   border-radius: 10px;
   margin: 20px 10px 10px 20px;
   display: flex;
-  align-items:center;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 6px;
+  
 }
 
 .botao-novatarefa {
@@ -145,4 +206,178 @@ header {
   width: 125px;
   height: 25px;
   border-radius: 6px 6px 6px 6px;
+  
+}
+
+
+/* css todo-list */
+.container {
+  max-width: 400px;
+  margin: auto;
+  
+}
+
+.todo-form {
+  width: 100%;
+  background: #fff;
+  padding: 10px 5px;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  
+}
+::-webkit-scrollbar{
+background-color:#000000 ;
+border-radius: 10px;
+width: 9px;
+height: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #383aa3;
+  border-radius: 10px;
+  
+
+}
+
+.column ul {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: #00003F;
+  border-radius: 10px;
+  padding: 7px;
+
+
+}
+
+.todo-form input {
+  width: 80%;
+  padding-left: 10px;
+  /* padding: 8px 16px; */
+  /* font-size: 1.25rem; */
+  font-size: 1;
+  border: 12px;
+  outline: none;
+}
+
+.todo-form button {
+  padding: 8px;
+  background: #00003F;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  
+}
+
+#statusText {
+  padding: 8px;
+  text-align: center;
+  color: #008CFF;
+}
+
+#todoList {
+  list-style: none;
+}
+
+.todo-item {
+  background: #fff;
+  color: #00003F;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.todo-item span {
+  flex: 1;
+  max-width: 70px;
+  word-wrap: break-word;
+}
+
+.todo-item .remove-button {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  cursor: pointer;
+  stroke: red;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  display: none;
+}
+
+.todo-item:hover .remove-button {
+  display: block;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #008CFF;
+}
+
+.todo-item input[type="checkbox"] {
+  cursor: pointer;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #00003F;
+  border-radius: 50%;
+  position: relative;
+}
+
+.todo-item input[type="checkbox"]:checked {
+  border-color: #008CFF;
+  background: #008CFF;
+}
+
+.todo-item input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path stroke="white" stroke-width="3" fill="none" d="M6,12 L10,16 L18,8" /></svg>');
+}
+
+.removecolumn{
+  border: none;
+  height: 35px;
+  width: 190px;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #000027;
+  cursor: pointer;
+  
+}
+#excluircolunas{
+  font-size: 10px;
+  letter-spacing: 3px;
+
+}
+
+.columnsname{
+  font-size: 17px;
+  width: 180px;
+  height: 45px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 7px;
+  text-transform: uppercase;
+  word-break: break-all;
+  word-break: break-word;
+
 }
