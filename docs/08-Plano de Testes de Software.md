@@ -15,7 +15,7 @@ Os testes de responsividade foram automatizados por Google. Teste de compatibili
 
 <img src="img/teste-responsividade.png">
 
-## Teste de Login
+## Teste de Login  -RESPONSAVEL: Mirela
 
 Foram realizados três testes conforme GIF:
 
@@ -25,7 +25,7 @@ Foram realizados três testes conforme GIF:
  
 <img src="img/gif1.gif">
 
-## Teste de Criação de Colunas
+## Teste de Criação de Colunas -RESPONSAVEL: Renan
 
 Foram realizados três testes conforme GIF:
 
@@ -34,9 +34,9 @@ Foram realizados três testes conforme GIF:
 - **3ª Tste**: Teste de Criação de colunas com nome.
 
 
-<img src="img/gif2.gif">
+<img src="img/gif2.gif"> 
 
-## Teste de Criar Tarefas
+## Teste de Criar Tarefas -RESPONSAVEL: Shigery
 
 Foram realizados dois testes conforme GIF:
 
@@ -45,7 +45,7 @@ Foram realizados dois testes conforme GIF:
 
 <img src="img/gif3.gif">
 
-## Teste Focus Time (Cronometro)
+## Teste Focus Time (Cronometro) -RESPONSAVEL: Lucas
 
 Foram realizados dois testes conforme GIF:
 
@@ -55,7 +55,7 @@ Foram realizados dois testes conforme GIF:
 
 <img src="img/gif4.gif">
 
-## Teste de Conclusão de Tarefas
+## Teste de Conclusão de Tarefas -RESPONSAVEL: Leonardo
 
 Foram realizados dois testes conforme GIF:
 
@@ -64,7 +64,7 @@ Foram realizados dois testes conforme GIF:
 
 <img src="img/gif5.gif">
 
-## Teste de Exclusão de Colunas
+## Teste de Exclusão de Colunas -RESPONSAVEL: Alice
 
 
 Foi realizado um teste conforme GIF:
