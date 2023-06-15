@@ -73,7 +73,7 @@ function renderColumn() {
 
     const removecolumn = document.createElement('button');
     removecolumn.classList.add('removecolumn');
-    removecolumn.innerHTML = '<p id="excluircolunas"> EXCLUIR COLUNA</p>';
+    removecolumn.innerHTML = '<img class="trash-icon" src="/images/trash-icon.png"><p id="excluircolunas">EXCLUIR COLUNA</p>';
     removecolumn.id = column.id;
     removecolumn.addEventListener('click', delet);
 
