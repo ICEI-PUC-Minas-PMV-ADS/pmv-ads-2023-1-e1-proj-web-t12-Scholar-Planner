@@ -218,6 +218,7 @@ b {
 .columns-container {
   display: flex;
   align-items: center;
+
   overflow-x: auto;
   margin-bottom: 30px;
   gap: 30px;
@@ -226,7 +227,7 @@ b {
 .column {
   width: 260px;
   min-width: 260px;
-  height: 725px;
+  height: 670px;
   color: white;
   font-family: Quicksand;
   font-weight: 600;
@@ -325,11 +326,13 @@ b {
 background-color:#000000 ;
 width: 9px;
 height: 10px;
+border-radius: 10px;
+
 }
 
 ::-webkit-scrollbar-thumb{
   background-color: #6783E9;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .column ul {
