@@ -23,7 +23,6 @@ header {
   justify-content: space-between;
   align-items: end;
   margin-bottom: 70px;
-  animation: Header 2s;
 }
 
 .logo {
@@ -196,7 +195,6 @@ b {
 .container-criarColuna {
   display: flex;
   flex-direction: column;
-  animation: Colunas 5s;
 }
 
 .plus-icon {
@@ -220,7 +218,6 @@ b {
 .columns-container {
   display: flex;
   align-items: center;
-
   overflow-x: auto;
   margin-bottom: 30px;
   gap: 30px;
