@@ -1,19 +1,14 @@
-# Apresentação da Solução
 
 
+
 # Apresentação da Solução
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t12-Scholar-Planner/raw/main/docs/img/Apresenta%C3%A7%C3%A3o%20-%20Scholar%20Planner.pptx
+
 
 ## Confira o video da Solução
 
-[![Apresentação do Projeto](https://www.youtube.com/watch?v=h42RnMQOwbY](https://www.youtube.com/watch?v=wUMEPKcWEeY))
-
-https://youtu.be/h42RnMQOwbY
+https://www.youtube.com/watch?v=wUMEPKcWEeY
 
 
 
-
-<a href="../docs/10-Apresentação do Projeto.md"> Orientações sobre os artefatos de apresentação do projeto</a>
-
-Faça uma apresentação resumida de todo o projeto, desde a contextualização até a solução final desenvolvida, usando um pequeno vídeo.
-
-Faça o upload do arquivo de vídeo e dos slides usados na apresentação no formato PDF (caso tenha feito uso de slides).
