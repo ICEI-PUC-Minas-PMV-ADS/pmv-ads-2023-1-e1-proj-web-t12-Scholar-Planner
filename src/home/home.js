@@ -12,7 +12,7 @@ function getNameAndInsertsItOnTheScreen() {
 
 buttonTime.addEventListener("click", pageFocusTime);
 function pageFocusTime() {
-  window.location.href = "../focus-time/index.html";
+  window.location.href = "src/focus-time/index.html";
 }
 
 getNameAndInsertsItOnTheScreen();
