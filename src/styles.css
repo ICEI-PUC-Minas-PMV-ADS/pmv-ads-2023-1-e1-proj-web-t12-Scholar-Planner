@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: 'Quicksand';
 }
 
@@ -13,19 +12,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px 0;
   background: linear-gradient(#000027, #2a2a9b);
 }
 
-.scholar-planner-logo {
-  height: 9vh;
-  margin-block: 5vh;
+.logo-container {
+  width: 75%;
+  padding: 50px 0;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vh;
+  animation: logoContainer 5s;
 }
 
-.divider {
-  padding: 1px;
-  width: 75%;
-  background-color: rgb(206, 197, 254);
+.scholar-planner-logo {
+  width: 170px;
 }
 
 .header-container {
@@ -40,24 +41,27 @@ body {
 .welcome-title {
   font-size: 20px;
   color: #07d7ff;
-  letter-spacing: 8px;
+  letter-spacing: 6px;
+  animation: welcomeTitle 2s;
 }
 
 .welcome-description {
-  max-width: 600px;
+  width: 500px;
   font-size: 18px;
   color: white;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
+  animation: welcomeDescription 5s;
 }
 
 .form-container {
-  width: 42vh;
+  width: 340px;
   margin-top: 8vh;
   padding-block: 1%;
   border: 2px solid rgb(206, 197, 254);
   border-radius: 4px;
   border-radius: 15px;
   box-shadow: 1px 1px 5px black;
+  animation: formContainer 6s;
 }
 
 form {
@@ -112,20 +116,3 @@ button:hover {
   transition: 0.5s;
 }
 
-@media (max-width: 600px) {
-  .header-container {
-    padding-inline: 5%;
-  }
-
-  .welcome-title {
-    font-size: 16px;
-  }
-
-  .welcome-description {
-    font-size: 15px;
-  }
-
-  .divider {
-    width: 90%;
-  }
-}

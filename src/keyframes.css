@@ -1,0 +1,68 @@
+@keyframes logoContainer {
+    0% {
+      transform: translateY(-200px);
+      border-bottom: none;
+      opacity: 0;
+    }
+    20% {
+        transform: translateY(-200px);
+        border-bottom: none;
+        opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      border-bottom: 1px solid #fff;
+    }
+  }
+  
+  @keyframes welcomeTitle {
+    0% {
+      letter-spacing: 2px;
+      opacity: 0;
+    }
+    15% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: 6px;
+      opacity: 1;
+    }
+  }
+
+  @keyframes welcomeDescription {
+    0% {
+      opacity: 0;
+    }
+    20% {
+        opacity: 0;
+      }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes formContainer {
+    0% {
+      transform: translateY(200px);
+      opacity: 0;
+    }
+    35% {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .welcome-title {
+      font-size: 18px;
+    }
+  
+    .welcome-description {
+      font-size: 15px;
+      width: 400px;
+    }
+  }

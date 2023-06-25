@@ -11,10 +11,10 @@
   </head>
   <body>
     <header>
+      <h3>Olá, <b class="username"></b>.</h3>
       <div class="container-logo">
         <img class="logo" src="../images/logo.png" alt="Logo" />
       </div>
-      <h3>Olá, <b class="username"></b>.</h3>
       <div class="container-focusTime-button">
         <button class="focusTime-button" id="focusTime-button">
           <img
@@ -28,9 +28,9 @@
     </header>
 
     <div class="container-criarColuna">
-      <div class="criarColuna-button-container">
+      <div class="criarColuna-button-container" id="add-column-button">
         <img class="plus-icon" src="../images/plus-icon.png" alt="Ícone adição" />
-        <button class="criarColuna-button" id="add-column-button">
+        <button class="criarColuna-button">
           criar coluna
         </button>
       </div>
@@ -42,14 +42,14 @@
         <div class="body-modal">
           <input
             type="text"
-            placeholder="nome da coluna (maximo de 16 caracteres)"
+            placeholder="Nome da coluna (máximo de 16 caracteres)."
             maxlength="16"
             id="name-column-input"
           />
-          <button class="save-column-name-button">salvar</button>
+          <button class="save-column-name-button">Salvar</button>
         </div>
         <div class="footer-modal">
-          <button class="modal-close">fechar</button>
+          <button class="modal-close">Fechar</button>
         </div>
       </div>
     </div>

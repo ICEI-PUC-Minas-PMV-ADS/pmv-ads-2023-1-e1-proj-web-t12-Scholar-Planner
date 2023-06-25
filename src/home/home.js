@@ -75,8 +75,7 @@ function renderColumn() {
 
     const removecolumn = document.createElement("button");
     removecolumn.classList.add("removecolumn");
-    removecolumn.innerHTML =
-      '<img class="trash-icon" src="/images/trash-icon.png"><p id="excluircolunas">EXCLUIR COLUNA</p>';
+    removecolumn.innerHTML = '<img class="trash-icon" src="../images/trash-icon.png"><p id="excluircolunas">EXCLUIR COLUNA</p>';
     removecolumn.id = column.id;
     removecolumn.addEventListener("click", delet);
 
@@ -223,3 +222,10 @@ function toggleDone(todoId, columnId) {
     }
   }
 }
+
+var item = document.getElementById("columns-container");
+
+  window.addEventListener("wheel", function (e) {
+    if (e.deltaY > 0) item.scrollLeft += 100;
+    else item.scrollLeft -= 100;
+  });
