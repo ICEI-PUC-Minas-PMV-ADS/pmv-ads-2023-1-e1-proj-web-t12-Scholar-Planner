@@ -5,7 +5,7 @@
 
 ## Confira o video da Solução
 
-[![Apresentação do Projeto]([https://img.youtube.com/vi/h42RnMQOwbY/default.jpg)](https://www.youtube.com/watch?v=h42RnMQOwbY](https://www.youtube.com/watch?v=wUMEPKcWEeY))
+[![Apresentação do Projeto](https://www.youtube.com/watch?v=h42RnMQOwbY](https://www.youtube.com/watch?v=wUMEPKcWEeY))
 
 https://youtu.be/h42RnMQOwbY
 
