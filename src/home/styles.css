@@ -226,7 +226,7 @@ b {
 .column {
   width: 260px;
   min-width: 260px;
-  height: 670px;
+  height: 70vh;
   color: white;
   font-family: Quicksand;
   font-weight: 600;
