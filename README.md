@@ -23,7 +23,8 @@ Uma aplicação de gerenciamento de tarefas para estudantes universitários que 
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+[Tutorial](https://www.youtube.com/watch?v=wUMEPKcWEeY) 
+
 
 # Documentação
 
@@ -43,7 +44,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* [Scholar Planner](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t12-Scholar-Planner/src/) 
+* [Scholar Planner](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t12-Scholar-Planner/src/index.html) 
 
 # Armazenamento do Código-Fonte
 
