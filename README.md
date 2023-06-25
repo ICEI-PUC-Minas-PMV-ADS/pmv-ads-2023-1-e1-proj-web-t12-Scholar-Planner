@@ -43,7 +43,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* [Scholar Planner](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t12-Scholar-Planner/) 
+* [Scholar Planner](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t12-Scholar-Planner/src/) 
 
 # Armazenamento do Código-Fonte
 
