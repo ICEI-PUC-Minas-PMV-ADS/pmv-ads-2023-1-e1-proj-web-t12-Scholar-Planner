@@ -27,7 +27,7 @@ function login() {
   if (!inputUsername.value) {
     setErrorMessage();
   } else {
-    messageError.style.display = 'none';
+    messageError.style.display = 'none'; 
     setUsername();
     window.location.href = '../home/home.html';
   }
