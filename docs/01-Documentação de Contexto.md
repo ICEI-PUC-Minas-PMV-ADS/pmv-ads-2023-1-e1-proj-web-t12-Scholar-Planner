@@ -27,7 +27,7 @@ No grupo de estudos "Alunos da Turma do Eixo 1 em Análise e Desenvolvimento de 
 
 Portanto, faz-se necessária uma ferramenta moderna e com design simples e intuitivo, através da qual o usuário possa ter, centralizados, recursos capazes de facilitar a organização da sua jornada acadêmica, além de amenizadores das dificuldades de concentração.
 
-## Trabalhos relacionados (soluções que já existem) 
+## Aplicações relacionadas 
 
 Existem muitas aplicações que podem ajudar as pessoas na gestão de tarefas. Entre elas, destacam-se as seguintes:
 
